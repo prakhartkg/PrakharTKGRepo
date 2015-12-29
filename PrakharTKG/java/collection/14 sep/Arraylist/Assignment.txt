@@ -1,0 +1,16 @@
+1.    Consider the following class,
+Class YashEmploy{
+     Integer id;
+     String name;
+     Integer age;
+     Double salary;
+    
+     //getters() & setters;
+}
+a)    Write a simple program which stores 10 YashEmploy objects in ArrayList and iterate it.
+b)    Write a program that sort the list of 10 YashEmploy objects(Natural Sorting) using comparable.
+c)     Write a program that sort the list of 10 YashEmploys using comparator for the following two cases :
+i)                   Consider that CEO wants to sort the employees based on their salaries.
+ii)                Consider that HR wants to sort the employees based on their age.
+
+

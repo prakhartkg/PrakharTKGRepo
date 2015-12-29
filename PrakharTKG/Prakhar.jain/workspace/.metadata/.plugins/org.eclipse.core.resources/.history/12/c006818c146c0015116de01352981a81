@@ -1,0 +1,28 @@
+package com.yash.jsp.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.yash.jsp.bean.Employee;
+import com.yash.jsp.dao.EmployeeDAO;
+
+/**
+ * Servlet implementation class SearchServlet
+ */
+@WebServlet("/SearchServlet")
+public class SearchServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String id=request.getParameter("id");
+		Employee employee=EmployeeDAO.searchEmployee(id);
+		request.setAttribute("employee", employee);
+		request.getRequestDispatcher("Show.jsp");
+	}
+
+}

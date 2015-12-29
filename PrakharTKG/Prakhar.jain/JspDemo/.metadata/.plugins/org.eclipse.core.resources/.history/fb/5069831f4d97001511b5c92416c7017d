@@ -1,0 +1,28 @@
+package com.yash.ems.controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/ControllerServlet")
+public class ControllerServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+ 
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		if(request.getParameter("Add").equalsIgnoreCase("Add Employee")){
+			response.sendRedirect("AddEmployee.jsp");
+		}
+		
+		if(request.getParameter("show").equalsIgnoreCase("show")){
+			
+			response.sendRedirect("/employeeServlet?show=show");
+		}
+	
+	}
+
+}

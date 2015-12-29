@@ -1,0 +1,5 @@
+package com.yash.jsp.bean;
+
+public class Employee {
+
+}

@@ -1,0 +1,235 @@
+<html>
+<head>
+<title>Regestration form</title>
+<link rel="stylesheet" href="regestration.css">
+
+<script>
+var flag=true;
+function validation()
+{
+	
+	var nam= document.forms["myForm"]["name"].value;
+	var loc=document.forms["myForm"]["loc"].value;
+    var uid=document.forms["myForm"]["uid"].value;
+    var mob=document.forms["myForm"]["mobile"].value;
+	var email=document.forms["myForm"]["email"].value;
+	var pass=document.forms["myForm"]["pass"].value;
+	var repass=document.forms["myForm"]["repass"].value;
+	if (nam == null || nam == "" )
+	{
+	document.getElementById("error_name").innerHTML="Enter name";
+	flag=false;
+	}
+	else
+	{
+	if(!isNaN(nam))
+	{
+	document.getElementById("error_name").innerHTML="Enter Valid name";
+	flag=false;
+	}
+	}  
+	
+	
+	if (loc == null || loc == "" )
+	{
+	document.getElementById("error_loc").innerHTML="Enter location";
+	flag=false;
+	}
+	if (uid == null || uid == "" )
+	{
+	document.getElementById("error_userId").innerHTML="Enter User ID";
+	flag=false;
+	}  
+	
+	if (mob == null || mob == "" )
+	{
+	document.getElementById("error_mob").innerHTML="Enter mobile";
+	flag=false;
+	}
+	else{
+	var l=isNaN(mob);
+	if(l==1)
+	{
+	document.getElementById("error_mob").innerHTML="InValid Number:Must have digits only";
+	flag=false;
+	}
+	else
+	{
+	if (/^\d{10}$/.test(mob)) {
+	document.getElementById("error_mob").innerHTML="";
+	flag=true;
+	} else {
+    document.getElementById("error_mob").innerHTML="Invalid number:Must have 10 digits";
+    flag=false
+			}
+	}
+	}
+	
+	if (email == null || email == "" )
+	{
+	document.getElementById("error_email").innerHTML="Enter email";
+	flag=false;
+	}
+	
+	else
+	{
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+    if (!filter.test(email))
+	{
+    document.getElementById("error_email").innerHTML="Please provide a valid email address";
+    email.focus;
+	flag=false;
+	}
+	
+	
+	
+	}
+	
+	if (pass == null || pass == "" )
+	{
+	document.getElementById("error_password").innerHTML="Enter password";
+	flag=false;
+	}
+	if (repass == null || repass == "" )
+	{
+	document.getElementById("error_rePassword").innerHTML="ReEnter password ";
+	flag=false;
+	}
+	if(pass!=null && repass!=null)
+	{
+	if(pass!=repass)
+	{
+	document.getElementById("error_rePassword").innerHTML="Password Not Match ";
+	flag=false;
+	}
+	
+	}
+	
+	
+	return flag;
+}
+
+function refresh()
+{
+location.reload();
+}
+
+function goFurther(){
+if (document.getElementById("cbox").checked == true)
+document.getElementById("sub").disabled = false;
+else
+document.getElementById("sub").disabled = true;
+}
+
+
+function myFunction() {
+	
+    var x = document.getElementById("name");
+	var y = document.getElementById("loc");
+	x.value = x.value.toUpperCase();
+	y.value = y.value.toUpperCase();
+	document.getElementById("error_name").innerHTML="";
+	}
+function checklength()
+{
+var pass=document.forms["myForm"]["pass"].value;
+if(pass.length<8)
+{
+document.getElementById("error_password").innerHTML="weak password:";
+flag=false;
+}
+else
+{
+document.getElementById("error_password").innerHTML="";
+flag=true;
+}
+}	
+
+function idcheck()
+{
+var uid=document.getElementById("uid").value;
+var regularExpression = /^(?=.*[0-9])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+if (!regularExpression.test(uid))
+	{
+    document.getElementById("error_userId").innerHTML="User ID must be Alphanumeric";
+    uid.focus;
+	flag=false;
+	}
+	else{
+	 document.getElementById("error_userId").innerHTML="";
+	}
+}
+</script>
+</head>
+
+<body>
+	<div id="maincontainer">
+	<h1 align="center">Regestration form</h1>
+	<div id="tablecontainer">
+		<form name="myForm" action="calculator1.html" onsubmit="return validation()" method="post">
+			<table align="left" cellspacing="15px">
+				<tr>
+				<th>Name:<font color="red">*</font></th>
+				<td><input type="text" id="name" name="name" onblur="myFunction()"></td>
+				<td><p class="col" id="error_name"></p></td>
+				</tr>
+				
+				<tr>
+				<th>Location:<font color="red">*</font></th>
+				<td><input type="text" id="loc" name="loc" onblur="myFunction()"></td>
+				<td><p class="col" id="error_loc"></p></td>
+				</tr>
+				
+				<tr>
+				<th>Address:</th>
+				<td><textarea id="address" rows="4"cols="22" name="address"></textarea></td>
+				<td><p class="col" id="error_address"></p></td>
+				</tr>
+				
+				<tr>
+				<th>Mobile:<font color="red">*</font></th>
+				<td><input type="text"  name="mobile"></td>
+				<td><p class="col" id="error_mob"></p></td>
+				</tr>
+				
+				<tr>
+				<th>Email:<font color="red">*</font></th>
+				<td><input type="text" name="email"></td>
+				<td><p class="col" id="error_email"></p></td>
+				</tr>
+				
+				<tr>
+				<th>User ID:<font color="red">*</font></th>
+				<td><input type="text" id="uid" name="uid" onblur="idcheck()"></td>
+				<td><p class="col" id="error_userId"></p></td>
+				</tr>
+				
+				<tr>
+				<th>Password:<font color="red">*</font></th>
+				<td><input type="password"  name="pass" onblur="checklength()""></td>
+				<td><p class="col" id="error_password"></p></td>
+				</tr>
+				
+				<tr>
+				<th>RE Password:<font color="red">*</font></th>
+				<td><input type="password" id="repass" name="repass"></td>
+				<td><p class="col" id="error_rePassword"></p></td>
+				</tr>
+				
+				<tr>
+				<td colspan=3><input type="checkbox"  id="cbox" onclick="goFurther()" ><font size=4 color="blue"><strong> I accept all terms and conditions</strong></font></td>
+				</tr>
+				
+				<tr>
+				<td><input type="reset" name="Reset" class="myButton" value="Reset" onclick="refresh()" ></td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp; 
+				<input type="submit" id="sub" class="myButton" value="submit" disabled></td>
+
+				</tr>
+			</table>
+		</form>
+	</div>
+	</div>
+</body>
+</html>

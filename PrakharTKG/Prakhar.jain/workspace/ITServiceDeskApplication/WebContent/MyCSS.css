@@ -1,0 +1,15 @@
+#header{
+	width: 100%;
+	height: 30%;
+	background-color: gray;
+	
+}
+#footer{
+	width: 100%;
+	height: 30%;
+	background-color: pink;
+}
+#mainarea{
+	width: 100%;
+	height: 40%;
+}

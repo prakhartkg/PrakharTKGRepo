@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Insert title here</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+	<link rel="stylesheet" href="jquery-ui.css" />
+	<style type="text/css">
+#container {
+	height: 500px;
+	width: 800px;
+	border: 2px solid black;
+	background-color: pink;
+	border: 2px solid black;
+	background-color: #369CFF;
+	margin-left: 350px;
+	margin-top: 200px;
+}
+</style>
+	<script type="text/javascript">
+		function refresh() {
+			location.reload();
+			document.getElementsById("msg").innerHTML = " ";
+		}
+		$(function() {
+			$("#datepicker").datepicker({
+				dateFormat : "yy-mm-dd"
+			});
+		});
+	</script>
+</h:head>
+<h:body>
+	<div id="container">
+		<h:form prependId="false">
+			<table>
+				<tr>
+					<td>Name</td>
+					<td><p><h:inputText id="name" value="#{employeeBean.name}"
+							required="true"/></p></td>
+					<td><p id="msg">
+							<h:message for="name" style="color:red" />
+						</p></td>
+				</tr>
+				<tr>
+					<td>Contact</td>
+					<td><p><h:inputText id="contact" value="#{employeeBean.contact}"
+							required="true" /></p></td>
+					<td><p id="msg">
+							<h:message for="contact" style="color:red" />
+						</p></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><p><h:selectOneRadio id="gender"
+							value="#{employeeBean.gender}" required="true">
+							<f:selectItem itemValue="1" itemLabel="male" />
+							<f:selectItem itemValue="2" itemLabel="female" />
+						</h:selectOneRadio></p></td>
+					<td><p id="msg">
+							<h:message for="gender" style="color:red" />
+						</p></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><p><h:inputText id="email" value="#{employeeBean.email}"
+							required="true" /></p></td>
+					<td><p id="msg">
+							<h:message for="email" style="color:red" />
+						</p></td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td><p><h:inputTextarea rows="3" id="address"
+							value="#{employeeBean.address}" required="true" /></p></td>
+					<td><p id="msg">
+							<h:message for="address" style="color:red" />
+						</p></td>
+				</tr>
+				<tr>
+					<td>D.O.B</td>
+					<td><p><h:inputText id="datepicker" required="true"
+							value="#{employeeBean.dob}" /></p></td>
+					<td><p id="msg">
+							<h:message for="datepicker" style="color:red" />
+						</p></td>
+				</tr>
+				<tr>
+					<td>Years Of Experience</td>
+					<td><p><h:selectOneMenu id="yoe"
+							value="#{employeeBean.yearsOfExpreance}" required="true">
+							<f:selectItem itemValue="1" itemLabel="fresher" />
+							<f:selectItem itemValue="2" itemLabel="1+" />
+							<f:selectItem itemValue="3" itemLabel="2+" />
+							<f:selectItem itemValue="4" itemLabel="3+" />
+						</h:selectOneMenu></p></td>
+					<td><p id="msg">
+							<h:message for="yoe" style="color:red" />
+						</p></td>
+				</tr>
+				<tr>
+					<td>Technologies Known</td>
+					<td><p>
+							<h:selectManyCheckbox id="tech" value="#{employeeBean.tech}"
+								required="true">
+								<f:selectItem itemValue="Java" itemLabel="Java" />
+								<f:selectItem itemValue="Spring" itemLabel="Spring" />
+								<f:selectItem itemValue="Hibernate" itemLabel="Hibernate" />
+							</h:selectManyCheckbox>
+						</p></td>
+					<td><p id="msg">
+							<h:message for="tech" style="color:red" />
+						</p></td>
+				</tr>
+				
+				<tr>
+					<td><h:commandButton type="button" value="Reset"
+							onclick="refresh()" /></td>
+					<td><h:commandButton type="submit" value="Save"
+							action="#{employeeBean.save}" /></td>
+
+				</tr>
+			</table>
+		</h:form>
+	</div>
+</h:body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Insert title here</title>
+</h:head>
+<h:body>
+<h:form >
+		<table>
+			<tr>
+				<td>Search By Id</td>
+				<td><h:inputText value="#{employeeBean.employee_id}" /></td>
+			</tr>
+			<tr>
+				<td><h:commandButton value="Search" action="#{employeeBean.searchEmployees}" /></td>
+				<td><h:commandLink action="addEmployee.xhtml" value="Add Employees" /></td>
+			</tr>
+				
+		</table>
+	</h:form>
+	<hr/>
+	<h:form>
+	<table border="2">
+		<ui:repeat value="#{employeeBean.employees}" var="employee">
+			<tr>
+				<td>
+				#{employee.employee_id}
+				</td>
+				<td>
+				#{employee.name}
+				</td>
+				<td>
+				#{employee.city}
+				</td>
+				<td>
+				#{employee.salary}
+				</td>
+				<td>
+		  			<h:commandLink value="Edit" action="#{employeeBean.edit}">
+		  			<f:setPropertyActionListener target="#{employeeBean.employee_id}" value="#{emplouyee.employee_id}"/>
+		  			</h:commandLink>
+		  			/
+		  			<h:commandLink value="Delete" action="#{employeeBean.delete}">
+		  			<f:setPropertyActionListener target="#{employeeBean.employee_id}" value="#{employee.employee_id}"/>
+		  			</h:commandLink>
+		  		</td>
+			</tr>
+			
+		</ui:repeat>
+	</table>
+	</h:form>
+	
+</h:body>
+</html>

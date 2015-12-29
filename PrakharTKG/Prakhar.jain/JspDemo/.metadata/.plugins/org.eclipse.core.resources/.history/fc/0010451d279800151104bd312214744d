@@ -1,0 +1,101 @@
+package com.yash.ems.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.List;
+
+import javax.inject.Inject;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import com.yash.ems.domain.Employee;
+import com.yash.ems.service.EmployeeService;
+
+@WebServlet("/employeeServlet")
+public class EmployeeServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    public EmployeeServlet() {
+        // TODO Auto-generated constructor stub
+    }
+    
+    @Inject
+    EmployeeService service;
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    	String value=request.getParameter("btn");
+		List<Employee> employees;
+		PrintWriter out=response.getWriter();
+		response.setContentType("text/html");
+		
+		if(value.equalsIgnoreCase("save")){
+			String name=request.getParameter("employeeName");
+			String city=request.getParameter("employeeCity");
+			Double salary=Double.parseDouble(request.getParameter("employeeSalary")) ;
+			System.out.println(name);
+			System.out.println(city);
+			System.out.println(salary);
+			service.addEmployee(name,city,salary);
+			employees=service.getAllEmployees();
+			HttpSession session=request.getSession();
+			session.setAttribute("employees", employees);
+			response.sendRedirect("index.jsp");
+		}
+		
+		if(value.equalsIgnoreCase("search")){
+			String id=request.getParameter("employee_id");
+			System.out.println(id+"---------------------");
+			if(id.equals("")){
+				employees=service.getAllEmployees();
+				HttpSession session=request.getSession();
+				session.setAttribute("employees", employees);
+				request.getRequestDispatcher("index.jsp").forward(request, response);
+			}else{
+				employees=service.getEmployee(Integer.parseInt(id));
+				HttpSession session=request.getSession();
+				session.setAttribute("employees", employees);
+				request.getRequestDispatcher("index.jsp").forward(request, response);
+			}
+		}
+		
+		if(value.equalsIgnoreCase("delete")){
+			int id=Integer.parseInt(request.getParameter("employee_id"));
+			int result= service.deleteEmployee(id);
+			if(result==1){
+				employees=service.getAllEmployees();
+				HttpSession session=request.getSession();
+				session.setAttribute("employees", employees);
+				request.getRequestDispatcher("index.jsp").forward(request, response);
+			}else{
+				out.println("<h1>Not deleted</h1>");
+			}
+		}
+		
+		if(value.equalsIgnoreCase("update")){
+			String id=request.getParameter("employee_id");
+			employees=service.getEmployee(Integer.parseInt(id));
+			HttpSession session=request.getSession();
+			session.setAttribute("employees", employees);
+			request.getRequestDispatcher("Update.jsp").forward(request, response);
+			
+		}
+		
+		if(value.equalsIgnoreCase("updateEmployee")){
+			String id=request.getParameter("employee_id");
+			String name=request.getParameter("employeeName");
+			String city=request.getParameter("employeeCity");
+			String salary=request.getParameter("employeeSalary");
+			
+			int result=service.updateEmployee(Integer.parseInt(id),name,city,Double.parseDouble(salary));
+			employees=service.getAllEmployees();
+			HttpSession session=request.getSession();
+			session.setAttribute("employees", employees);
+			response.sendRedirect("index.jsp");
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.yash.jsp.dao;
+
+import com.yash.jsp.bean.Employee;
+
+public class EmployeeDAO {
+	
+
+	public static Employee searchEmployee(String id) {
+		String sql="Select * from employee";
+		if(id!=null){
+			sql=sql+"where id="+id;
+			
+		}else{
+			
+		}
+		return null;
+	}
+}

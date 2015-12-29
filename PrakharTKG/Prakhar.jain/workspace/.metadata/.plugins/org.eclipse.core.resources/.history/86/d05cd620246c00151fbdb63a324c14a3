@@ -1,0 +1,82 @@
+package com.yash.jsp.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.yash.jsp.Util.MyConnection;
+import com.yash.jsp.bean.Employee;
+
+public class EmployeeDAO {
+	
+
+	public static List<Employee> searchEmployee(String id) {
+		System.out.println(id);
+		String sql=null;
+		Employee employee=null;
+		List<Employee> employeeList=new ArrayList();
+		Connection connection=MyConnection.getConnection();
+		if(id!=""){
+			sql="Select * from employee where id=?";
+			try {
+				PreparedStatement preparedStatement=connection.prepareStatement(sql);
+				preparedStatement.setInt(1, Integer.parseInt(id));
+				ResultSet resultSet=preparedStatement.executeQuery();
+				while (resultSet.next()) {
+					employee=new Employee();
+					employee.setId(resultSet.getInt(1));
+					employee.setName(resultSet.getString(2));
+					employee.setCity(resultSet.getString(3));
+					employee.setPosition(resultSet.getString(4));
+					employee.setSalary(resultSet.getFloat(5));
+					employeeList.add(employee);
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}else{
+			
+			try {
+				sql="SELECT * From Employee";
+				PreparedStatement preparedStatement=connection.prepareStatement(sql);
+				ResultSet resultSet=preparedStatement.executeQuery();
+				while (resultSet.next()) {
+					employee=new Employee();
+					employee.setId(resultSet.getInt(1));
+					employee.setName(resultSet.getString(2));
+					employee.setCity(resultSet.getString(3));
+					employee.setPosition(resultSet.getString(4));
+					employee.setSalary(resultSet.getFloat(5));
+					employeeList.add(employee);
+				}
+				
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		return employeeList;
+	}
+
+	public static int insertEmployee(Employee employee) {
+		Connection connection=MyConnection.getConnection();
+		String sql="Insert Into employee values("+employee.getId()+",'"+employee.getName()+"','"+employee.getCity()+"','"+employee.getPosition()+"',"+employee.getSalary()+")";
+		System.out.println(sql);
+		int i;
+		try {
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			i=preparedStatement.executeUpdate();
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return i;
+	}
+}

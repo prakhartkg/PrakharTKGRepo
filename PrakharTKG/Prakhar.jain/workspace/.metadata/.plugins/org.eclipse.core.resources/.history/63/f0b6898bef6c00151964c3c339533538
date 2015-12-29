@@ -1,0 +1,10 @@
+package com.yash.CustomTag;
+
+import javax.servlet.jsp.tagext.TagSupport;
+
+public class MyCustomTag extends TagSupport{
+	private static final long serialVersionUID = 1L;
+	private String action;
+	
+
+}

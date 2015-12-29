@@ -1,0 +1,167 @@
+
+Oct 01, 2015 19:10:53.72 NEW SESSION
+Oct 01, 2015 19:10:53.72 
+Oct 01, 2015 19:10:53.72 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 01, 2015 19:10:53.72 
+Oct 01, 2015 19:10:53.72 
+Oct 01, 2015 19:10:53.72 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 01, 2015 19:10:53.72 
+
+Oct 05, 2015 10:38:09.24 NEW SESSION
+Oct 05, 2015 10:38:09.24 
+Oct 05, 2015 10:38:09.24 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 10:38:09.24 
+Oct 05, 2015 10:38:09.24 
+Oct 05, 2015 10:38:09.24 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 10:38:09.24 
+
+Oct 05, 2015 13:23:41.57 NEW SESSION
+Oct 05, 2015 13:23:41.57 1444031621584	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Oct 05, 2015 13:37:45.97 
+Oct 05, 2015 13:37:45.97 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 13:37:45.97 
+Oct 05, 2015 13:37:45.97 
+Oct 05, 2015 13:37:45.97 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 13:37:45.97 
+Oct 05, 2015 14:03:48.65 1444034028629	addons.manager	WARN	Exception calling callback: TypeError: this._backgroundUpdateCheckCodePing is not a function (resource://gre/components/nsUpdateService.js:2689:8) JS Stack trace: AUS__checkAddonCompatibility/<@nsUpdateService.js:2689:9 < safeCall@AddonManager.jsm:173:5 < getAddonsByTypes_noMoreObjects@AddonManager.jsm:2142:9 < AOC_callNext@AddonManager.jsm:305:7 < getAddonsByTypes_concatAddons@AddonManager.jsm:2137:11 < SocialAddonProvider.getAddonsByTypes@SocialService.jsm:1034:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonsByTypes_nextObject@AddonManager.jsm:2132:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonsByTypes_concatAddons@AddonManager.jsm:2137:11 < PL_getAddonsByTypes@PluginProvider.jsm:150:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonsByTypes_nextObject@AddonManager.jsm:2132:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonsByTypes_concatAddons@AddonManager.jsm:2137:11 < OpenH264Provider.getAddonsByTypes@OpenH264Provider.jsm:366:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonsByTypes_nextObject@AddonManager.jsm:2132:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonsByTypes_concatAddons@AddonManager.jsm:2137:11 < LightweightThemeManager_getAddonsByTypes@LightweightThemeManager.jsm:389:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonsByTypes_nextObject@AddonManager.jsm:2132:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonsByTypes_concatAddons@AddonManager.jsm:2137:11 < getAddonsByTypes_getVisibleAddons@XPIProvider.jsm:3822:7 < makeSafe/<@XPIProviderUtils.js:146:17 < asyncMap_gotValue@XPIProviderUtils.js:181:7 < asyncMap_callback@XPIProviderUtils.js:188:9 < completeAddon@XPIProviderUtils.js:135:5 < getAddon@AddonRepository.jsm:580:7 < this.AddonRepository.getCachedAddonByID</<@AddonRepository.jsm:586:9 < Handler.prototype.process@Promise-backend.js:865:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:744:7 < openModalWindow@nsPrompter.js:369:5 < ModalPrompter.prototype.openPrompt@nsPrompter.js:552:9 < ModalPrompter.prototype.confirmEx@nsPrompter.js:696:9 < Prompter.prototype.confirmEx@nsPrompter.js:78:16 < DefaultBrowserCheck.prompt@nsBrowserGlue.js:2186:14 < BG__onWindowsRestored/<@nsBrowserGlue.js:801:11
+Oct 05, 2015 14:33:43.19 
+Oct 05, 2015 14:33:43.19 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 14:33:43.19 
+Oct 05, 2015 14:33:43.19 
+Oct 05, 2015 14:33:43.19 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 14:33:43.19 
+Oct 05, 2015 14:33:43.20 
+Oct 05, 2015 14:33:43.20 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 14:33:43.20 
+Oct 05, 2015 14:33:43.20 
+Oct 05, 2015 14:33:43.20 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 14:33:43.20 
+Oct 05, 2015 14:33:43.20 
+Oct 05, 2015 14:33:43.20 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 14:33:43.20 
+Oct 05, 2015 14:33:43.20 
+Oct 05, 2015 14:33:43.20 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 14:33:43.20 
+Oct 05, 2015 15:51:19.39 
+Oct 05, 2015 15:51:19.39 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 15:51:19.39 
+Oct 05, 2015 15:51:19.39 
+Oct 05, 2015 15:51:19.39 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 15:51:19.39 
+
+Oct 05, 2015 16:15:29.64 NEW SESSION
+Oct 05, 2015 16:15:29.64 
+Oct 05, 2015 16:15:29.64 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 16:15:29.64 
+Oct 05, 2015 16:15:29.64 
+Oct 05, 2015 16:15:29.64 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 16:15:29.64 
+
+Oct 05, 2015 19:53:44.15 NEW SESSION
+Oct 05, 2015 19:53:44.15 [Child 1252] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 309
+Oct 05, 2015 20:35:53.69 
+Oct 05, 2015 20:35:53.69 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 20:35:53.69 
+Oct 05, 2015 20:35:53.69 
+Oct 05, 2015 20:35:53.69 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 20:35:53.69 
+Oct 05, 2015 20:35:53.69 
+Oct 05, 2015 20:35:53.69 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 20:35:53.70 
+Oct 05, 2015 20:35:53.70 
+Oct 05, 2015 20:35:53.70 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 20:35:53.70 
+Oct 05, 2015 20:35:53.70 
+Oct 05, 2015 20:35:53.70 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 20:35:53.70 
+Oct 05, 2015 20:35:53.70 
+Oct 05, 2015 20:35:53.70 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 20:35:53.70 
+
+Oct 05, 2015 21:25:47.81 NEW SESSION
+Oct 05, 2015 21:25:47.81 
+Oct 05, 2015 21:25:47.81 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 21:25:47.81 
+Oct 05, 2015 21:25:47.81 
+Oct 05, 2015 21:25:47.81 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 21:25:47.81 
+Oct 05, 2015 21:25:47.81 
+Oct 05, 2015 21:25:47.81 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 21:25:47.81 
+Oct 05, 2015 21:25:47.83 
+Oct 05, 2015 21:25:47.83 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 21:25:47.83 
+Oct 05, 2015 21:25:47.83 
+Oct 05, 2015 21:25:47.83 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 21:25:47.83 
+Oct 05, 2015 21:25:47.83 
+Oct 05, 2015 21:25:47.83 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 21:25:47.83 
+Oct 05, 2015 21:25:47.83 
+Oct 05, 2015 21:25:47.83 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 21:25:47.83 
+Oct 05, 2015 21:25:47.83 
+Oct 05, 2015 21:25:47.83 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 05, 2015 21:25:47.83 
+
+Oct 06, 2015 15:46:56.24 NEW SESSION
+Oct 06, 2015 15:46:56.24 
+Oct 06, 2015 15:46:56.26 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 15:46:56.27 
+Oct 06, 2015 15:46:56.27 
+Oct 06, 2015 15:46:56.27 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 15:46:56.27 
+
+Oct 06, 2015 15:51:58.84 NEW SESSION
+Oct 06, 2015 15:51:58.84 
+Oct 06, 2015 15:51:58.84 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 15:51:58.84 
+Oct 06, 2015 15:51:58.84 
+Oct 06, 2015 15:51:58.84 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 15:51:58.85 
+Oct 06, 2015 16:01:16.63 1444127476662	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Oct 06, 2015 16:19:52.64 
+Oct 06, 2015 16:19:52.64 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 16:19:52.65 
+Oct 06, 2015 16:19:52.65 
+Oct 06, 2015 16:19:52.65 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 16:19:52.65 
+Oct 06, 2015 16:19:52.65 
+Oct 06, 2015 16:19:52.65 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 16:19:52.65 
+Oct 06, 2015 16:19:52.66 
+Oct 06, 2015 16:19:52.66 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 16:19:52.66 
+Oct 06, 2015 16:44:53.09 [Child 2532] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 309
+Oct 06, 2015 17:22:25.76 
+Oct 06, 2015 17:22:25.76 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 17:22:25.76 
+Oct 06, 2015 17:22:25.76 
+Oct 06, 2015 17:22:25.76 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 17:22:25.77 
+Oct 06, 2015 17:22:25.77 
+Oct 06, 2015 17:22:25.77 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 17:22:25.77 
+Oct 06, 2015 17:22:25.77 
+Oct 06, 2015 17:22:25.77 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 17:22:25.77 
+Oct 06, 2015 17:22:25.77 
+Oct 06, 2015 17:22:25.77 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 17:22:25.77 
+Oct 06, 2015 17:22:25.78 
+Oct 06, 2015 17:22:25.78 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+Oct 06, 2015 17:22:25.78 
+
+Oct 07, 2015 14:33:47.14 NEW SESSION
+Oct 07, 2015 14:33:47.14 Handler function threw an exception: TypeError: threadActor is null
+Oct 07, 2015 14:33:47.14 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1651:1
+Oct 07, 2015 14:33:47.15 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1588:7
+Oct 07, 2015 14:33:47.15 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Oct 07, 2015 14:33:47.15 Line: 1651, column: 1
+Oct 07, 2015 14:33:47.15 Handler function threw an exception: TypeError: threadActor is null
+Oct 07, 2015 14:33:47.15 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1651:1
+Oct 07, 2015 14:33:47.15 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1588:7
+Oct 07, 2015 14:33:47.15 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Oct 07, 2015 14:33:47.17 Line: 1651, column: 1
+Oct 07, 2015 18:18:34.22 1444222114251	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Oct 07, 2015 18:18:36.55 1444222116579	addons.manager	WARN	Exception calling callback: Error: Unknown add-on ID firefox-hotfix@mozilla.org (resource://gre/modules/addons/XPIProvider.jsm:7731:11) JS Stack trace: DirInstallLocation_getLocationForID@XPIProvider.jsm:7731:11 < XPI_uninstallAddon@XPIProvider.jsm:4913:20 < AddonWrapper_uninstall@XPIProvider.jsm:7180:5 < uninstallHotfix/<@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/prakhar.jain/AppData/Roaming/Mozilla/Firefox/Profiles/mpyjthcb.default/extensions/firefox-hotfix@bootstrap.js:59:5 < safeCall@AddonManager.jsm:173:5 < makeSafe/<@AddonManager.jsm:189:25 < Handler.prototype.process@Promise-backend.js:922:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:801:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:740:39

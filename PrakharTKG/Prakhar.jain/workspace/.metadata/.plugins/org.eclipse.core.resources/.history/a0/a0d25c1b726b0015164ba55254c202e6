@@ -1,0 +1,56 @@
+package com.yash.customerLogin.service;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class ValidateCustomer
+ */
+@WebServlet("/ValidateCustomer.do")
+public class ValidateCustomerServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");
+		PrintWriter out=response.getWriter();
+		out.println("<html>");
+		out.println("<head>");
+		out.println("<Title>Login</title>");
+		out.println("</head>");
+		out.println("<body>");
+		Connection connection=(Connection)getServletContext().getAttribute("connection");
+		String customerId=request.getParameter("custId");
+		String customerPwd=request.getParameter("custPwd");
+		String sql="Select * from  customerLogin where custId=? and custPwd=?";
+		PreparedStatement preparedStatement;
+		try {
+			preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, customerId);
+			preparedStatement.setString(2, customerPwd);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			if(resultSet.next()){
+			out.println("<h1>Welcome : "+resultSet.getString(3)+"</h1>");	
+			}else{
+				response.sendRedirect("CustomerLogin");
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		out.println("</body>");
+		out.println("</html>");
+	
+	}
+
+}

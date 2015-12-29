@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>calculator</title>
+<style>
+#container
+{
+margin-left:40%;
+margin-top:10%;
+}
+</style>
+
+</head>
+<body>
+<div id="container">
+<font size=4><strong>Get second No:</strong></font>
+
+<input type="button" value="Get" onclick=first1()>
+<p id="first"></p>
+
+<font size=4><strong>Get Second No:</strong></font>
+<input type="button" value="Get" onclick=second()>
+<p id="second"></p>
+<input type="button" id="1" value="add" onclick=opr(this)>
+<input type="button" id="2" value="sub" onclick=opr(this)>
+<input type="button" id="3" value="multiply" onclick=opr(this)>
+<input type="button" id="4" value="divide" onclick=opr(this)>
+<input type="button" id="5" value="concat" onclick=opr(this)>
+<br>
+<center><p id="result"></p><center>
+
+<a href="assignment.html">More........</a>
+<div>
+<script>
+
+var x,y;
+function  first1()
+{
+var first=prompt("Enter First No.");
+x=first;
+document.getElementById("first").innerHTML = first;
+}
+function  second()
+{
+var sec=prompt("Enter First No.");
+y=sec;
+document.getElementById('second').innerHTML = sec;
+}
+function opr(button)
+{
+var a=button.id;
+if(a=='1')
+{
+var f=parseInt(x);
+var s=parseInt(y);
+var r=f+s;
+window.alert("addation result="+r);
+}
+if(a=='2')
+{
+var f=parseInt(x);
+var s=parseInt(y);
+var r=f-s;
+window.alert("substraction result="+r);
+}
+if(a=='3')
+{
+var f=parseInt(x);
+var s=parseInt(y);
+var r=f*s;
+window.alert("multiplication result="+r);
+}
+if(a=='4')
+{
+var f=parseInt(x);
+var s=parseInt(y);
+var r=f/s;
+window.alert("division result="+r);
+}
+if(a=='5')
+{
+var r=x+y;
+window.alert("concatination result="+r);
+}
+}
+</script>
+</body>
+</html>

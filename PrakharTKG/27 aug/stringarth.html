@@ -1,0 +1,68 @@
+<html>
+<head>
+<style>
+#container
+{
+margin-top:20%;
+margin-left:20%;
+}
+#result
+{
+margin-right:32%
+}
+</style>
+</head>
+<body>
+<div id="container">
+<h1>String And Arthmatic Operations...</h1>
+<input type="text" id="a" name="box">+
+<input type="text" id="b" name="box1">+
+<input type="text" id="c"  name="box2">
+<input type="button" value="Addation with Left-Associativity"onclick="add()">
+<br>
+<font size=6 color="red"><p id="result"></p></font>
+</div>
+<script>
+
+function add()
+{
+var result;
+var x = document.getElementById('a').value;
+var y = document.getElementById('b').value;
+var z = document.getElementById('c').value;
+if(isNaN(x))
+{
+result=x+y+z;
+document.getElementById("result").innerHTML = "result="+result;
+
+}
+
+else
+{
+	if(isNaN(y))
+	{
+		result=x+y+z;
+		document.getElementById("result").innerHTML = "result="+result;
+	}
+	else
+	{
+		result=+x + +y;	
+				if(isNaN(z))
+				{
+					result=+result + z;
+					document.getElementById("result").innerHTML = "result="+result;
+				}
+				else
+				{
+					
+					result=+result + +z;
+					document.getElementById("result").innerHTML = "result="+result;
+				}
+	}
+}	
+
+
+}
+</script>
+</body>
+</html>

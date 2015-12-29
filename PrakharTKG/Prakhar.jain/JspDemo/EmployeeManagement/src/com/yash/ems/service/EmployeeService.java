@@ -1,0 +1,19 @@
+package com.yash.ems.service;
+
+import java.util.List;
+
+import com.yash.ems.domain.Employee;
+
+public interface EmployeeService {
+
+	void addEmployee(String name, String city, Double salary);
+
+	List<Employee> getAllEmployees();
+
+	List<Employee> getEmployee(int employee_id);
+
+	int deleteEmployee(int id);
+
+	int updateEmployee(int parseInt, String name, String city, double parseDouble);
+	
+}

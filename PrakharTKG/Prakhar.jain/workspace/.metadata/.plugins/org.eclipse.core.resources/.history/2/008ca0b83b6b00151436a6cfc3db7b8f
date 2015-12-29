@@ -1,0 +1,66 @@
+package com.yash.customerLogin.Listner;
+
+import java.io.FileReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Properties;
+
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+import javax.servlet.annotation.WebListener;
+
+/**
+ * Application Lifecycle Listener implementation class PropertiesListner
+ *
+ */
+@WebListener
+public class PropertiesListner implements ServletContextListener {
+
+ 
+    public void contextDestroyed(ServletContextEvent contextEvent) {
+        // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see ServletContextListener#contextInitialized(ServletContextEvent)
+     */
+    public void contextInitialized(ServletContextEvent contextEvent) {
+    	String url1="jdbc:mysql://localhost:3306/itservicedesk";
+		String user="root";
+		String password="root";
+		Connection connection;
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			connection=DriverManager.getConnection(url1,user,password);
+			contextEvent.getServletContext().setAttribute("connection",connection);
+			} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	
+    		FileReader reader;
+    	 	String url;
+    	 	String path=contextEvent.getServletContext().getInitParameter("FilePath");
+    	 	System.out.println(path);
+    		url=contextEvent.getServletContext().getRealPath(path);
+			
+			try {
+				 reader = new FileReader(url);
+				 Properties properties=new Properties();  
+				 properties.load(reader);
+				 contextEvent.getServletContext().setAttribute("properties",properties);
+				 
+				 System.out.println("file Loaded");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}  
+    	
+    }
+	
+}

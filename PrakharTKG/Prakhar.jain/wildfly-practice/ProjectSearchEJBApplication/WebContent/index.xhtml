@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title></title>
+</h:head>
+<h:body>
+	<center> <h:form>
+		<h1>Product Search</h1>
+		<table>
+
+			<tr>
+
+				<td>
+					<h:selectOneMenu value="#{productBean.product.productName}">
+						<f:selectItem itemValue="" itemLabel="Product" />
+						<f:selectItems value="#{productBean.products}" />
+					</h:selectOneMenu>
+				</td>
+
+
+				<td>
+					<h:selectOneMenu value="#{productBean.product.vendor}">
+						<f:selectItem itemValue="" itemLabel="Vendor" />
+						<f:selectItems  value="#{productBean.vendors}" />
+					</h:selectOneMenu>
+				</td>
+
+
+				<td>
+					<h:selectOneMenu value="#{productBean.product.city}">
+						<f:selectItem itemValue="" itemLabel="City" />
+						<f:selectItems value="#{productBean.citys}" />
+					</h:selectOneMenu>
+				</td>
+
+				<td>
+					<h:commandButton action="#{productBean.searchProduct}" value="SEARCH" />
+				</td>
+			</tr>
+
+
+		</table>
+	</h:form> </center>
+	
+	<div id="searchedArea">
+	<center>	
+		<table>
+			<tr>
+				<td>ProductName</td>
+				<td>Vendor</td>
+				<td>City</td>
+			</tr>
+			<tr>
+				<h:dataTable value="#{productBean.searchedList}" var="list">
+
+					<h:column>
+							#{list.productName}		
+					</h:column>
+					<h:column>
+							#{list.vendor}		
+					</h:column>
+					<h:column>
+							#{list.city}		
+					</h:column>
+				</h:dataTable>
+			</tr>
+		</table>
+	</center>
+	</div>
+</h:body>
+</html>

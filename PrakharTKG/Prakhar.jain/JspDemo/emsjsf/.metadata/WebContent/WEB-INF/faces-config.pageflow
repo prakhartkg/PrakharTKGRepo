@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14489729869340" configfile="/emsjsf/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="editEmployee.xhtml" x="202" y="266" id="pf14489821071551" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" path="/editEmployee.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="657" y="191" id="pf14489821071563" referenceLink="//@navigationRule.0/@fromViewId|" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="addEmployee.xhtml" x="382" y="59" id="pf14489821071564" path="/addEmployee.xhtml"/>
+</pageflow:Pageflow>

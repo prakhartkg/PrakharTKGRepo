@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.yash.ITServiceDesk.Util&apos; to &apos;EmployeeBeen/src&apos;&#x0D;&#x0A;- Original project: &apos;ITServiceDeskApplication&apos;&#x0D;&#x0A;- Destination element: &apos;EmployeeBeen/src&apos;&#x0D;&#x0A;- Original element: &apos;ITServiceDeskApplication/src/com.yash.ITServiceDesk.Util&apos;" description="Copy package" destination="=EmployeeBeen/src" element1="/src&lt;com.yash.ITServiceDesk.Util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1444125353069" version="1.0"/>
+</session>

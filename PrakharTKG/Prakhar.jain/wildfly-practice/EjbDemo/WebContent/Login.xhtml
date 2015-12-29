@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:p="http://primefaces.org/ui">
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Login</title>
+</h:head>
+<h:body>
+	<div>
+		<h:form>
+		<center>
+			<table>
+				<tr>
+					<td><h:outputText value="UserName"/></td>
+					<td><p:inputText value="#{userBean.userName}" id="userName"/></td>
+				</tr>
+				<tr>
+					<td><h:outputText value="Password"/></td>
+					<td><p:password value="#{userBean.password}" id="password"/></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="right"><h:commandButton value="Login" action="#{userBean.authenticate}" /></td>
+				</tr>
+			</table>
+			</center>
+		</h:form>
+	</div>
+	
+	<div>
+	<h:outputText value="#{userBean.validUser.name}"/>
+	<h:outputText value="#{userBean.validUser.userName}"/>
+	<h:outputText value="#{userBean.validUser.address}"/>
+	<h:outputText value="#{userBean.validUser.city}"/>
+	</div>
+</h:body>
+</html>

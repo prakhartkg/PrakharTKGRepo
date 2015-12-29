@@ -1,0 +1,47 @@
+package com.yash.customerLogin.Listner;
+
+import java.io.FileReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Properties;
+
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+import javax.servlet.annotation.WebListener;
+
+/**
+ * Application Lifecycle Listener implementation class PropertiesListner
+ *
+ */
+@WebListener
+public class PropertiesListner implements ServletContextListener {
+
+ 
+    public void contextDestroyed(ServletContextEvent contextEvent) {
+        // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see ServletContextListener#contextInitialized(ServletContextEvent)
+     */
+    public void contextInitialized(ServletContextEvent contextEvent) {
+    	 	FileReader reader;
+    	 	String url;
+    	 	String path=contextEvent.getServletContext().getInitParameter("FilePath");
+    	 	System.out.println(path);
+    		url=contextEvent.getServletContext().getRealPath(path);
+			System.out.println(url);
+			try {
+				 reader = new FileReader(url);
+				 Properties properties=new Properties();  
+				 properties.load(reader);
+				 contextEvent.getServletContext().setAttribute("properties",properties);
+				 
+				 System.out.println("file Loaded");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}  
+    	
+    }
+	
+}

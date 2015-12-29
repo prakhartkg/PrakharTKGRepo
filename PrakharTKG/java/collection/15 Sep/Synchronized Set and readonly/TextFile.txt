@@ -1,0 +1,14 @@
+Q2 Difference between Collections and Arrays .
+Arrays r fixed in size and hence once we created an array we are not allowed to increase or decrease the size based on our requirement .
+ Collections are growable in nature and hence based on our requirement we can increase or decrease the size.
+ Memory point of view arrays are not recommended to use .
+ Memory point of view collections are recommended to use .
+ Performance point of view arrays are recommended to use .(Faster)
+ Performance point of view collections are not recommended to use .
+ Arrays can hold only homogeneous elements .
+ Collections can hold both homogeneous and heterogeneous elements .
+ Arrays can hold both primitives as well as objects .
+ Collections can hold only objects .
+ For any requirement, there is no ready method support compulsory programmer has to code explicitly .
+ For every requirement ready made method support is available. Being a programmer we have to know how to use those methods and we are not responsible to implement those .  
+

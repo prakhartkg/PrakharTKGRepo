@@ -1,0 +1,22 @@
+package syncdemo;
+ class Test{
+	
+	public static void main(String[] args) {
+		
+	
+	}
+}
+
+ 
+	 interface B{
+		 class C{
+			 void show(){
+				 System.out.println("Hello");
+			 }
+		 }
+	 }
+ 
+	 
+	 class D implements B{
+		 
+	 }

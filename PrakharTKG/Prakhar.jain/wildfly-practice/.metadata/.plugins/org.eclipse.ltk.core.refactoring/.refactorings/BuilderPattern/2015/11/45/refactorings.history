@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.yash.builder.subway.sauce.sweetOnion&apos; to &apos;SweetOnion&apos;&#x0D;&#x0A;- Original project: &apos;BuilderPattern&apos;&#x0D;&#x0A;- Original element: &apos;com.yash.builder.subway.sauce.sweetOnion&apos;&#x0D;&#x0A;- Renamed element: &apos;com.yash.builder.subway.sauce.SweetOnion&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;sweetOnion&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.yash.builder.subway.sauce{sweetOnion.java[sweetOnion" matchStrategy="1" name="SweetOnion" qualified="false" references="true" similarDeclarations="false" stamp="1446794644293" textual="false" version="1.0"/>
+</session>

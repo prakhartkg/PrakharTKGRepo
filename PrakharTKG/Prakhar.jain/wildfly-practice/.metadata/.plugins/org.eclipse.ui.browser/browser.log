@@ -1,0 +1,1332 @@
+
+Nov 03, 2015 15:24:58.67 NEW SESSION
+Nov 03, 2015 15:24:58.67 Handler function threw an exception: TypeError: threadActor is null
+Nov 03, 2015 15:24:58.67 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1651:1
+Nov 03, 2015 15:24:58.67 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1588:7
+Nov 03, 2015 15:24:58.67 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 03, 2015 15:24:58.67 Line: 1651, column: 1
+Nov 03, 2015 15:46:08.41 Handler function NRL_getSecurityInfo threw an exception: TypeError: this.transport is null
+Nov 03, 2015 15:46:08.41 Stack: DSC_send@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1334:5
+Nov 03, 2015 15:46:08.41 NEA_addSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webconsole.js:1924:5
+Nov 03, 2015 15:46:08.41 NRL_getSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:273:5
+Nov 03, 2015 15:46:08.41 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 03, 2015 15:46:08.41 NRL_onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:227:5
+Nov 03, 2015 15:46:08.41 Line: 1334, column: 5
+Nov 03, 2015 16:06:44.36 1446547004384	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+Nov 03, 2015 19:03:37.04 NEW SESSION
+Nov 03, 2015 19:03:37.04 Handler function threw an exception: TypeError: threadActor is null
+Nov 03, 2015 19:03:37.04 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1651:1
+Nov 03, 2015 19:03:37.04 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1588:7
+Nov 03, 2015 19:03:37.04 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 03, 2015 19:03:37.04 Line: 1651, column: 1
+Nov 03, 2015 19:03:37.05 Handler function threw an exception: TypeError: threadActor is null
+Nov 03, 2015 19:03:37.05 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1651:1
+Nov 03, 2015 19:03:37.05 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1588:7
+Nov 03, 2015 19:03:37.05 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 03, 2015 19:03:37.05 Line: 1651, column: 1
+Nov 03, 2015 19:03:37.05 Handler function threw an exception: TypeError: threadActor is null
+Nov 03, 2015 19:03:37.05 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1651:1
+Nov 03, 2015 19:03:37.05 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1588:7
+Nov 03, 2015 19:03:37.05 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 03, 2015 19:03:37.05 Line: 1651, column: 1
+
+Nov 04, 2015 11:12:19.97 NEW SESSION
+Nov 04, 2015 11:12:19.97 Handler function NRL_getSecurityInfo threw an exception: TypeError: this.transport is null
+Nov 04, 2015 11:12:19.99 Stack: DSC_send@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1334:5
+Nov 04, 2015 11:12:19.99 NEA_addSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webconsole.js:1924:5
+Nov 04, 2015 11:12:19.99 NRL_getSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:273:5
+Nov 04, 2015 11:12:19.99 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 04, 2015 11:12:19.99 NRL_onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:227:5
+Nov 04, 2015 11:12:19.99 Line: 1334, column: 5
+Nov 04, 2015 11:12:20.00 Handler function NRL_getSecurityInfo threw an exception: TypeError: this.transport is null
+Nov 04, 2015 11:12:20.00 Stack: DSC_send@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1334:5
+Nov 04, 2015 11:12:20.00 NEA_addSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webconsole.js:1924:5
+Nov 04, 2015 11:12:20.00 NRL_getSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:273:5
+Nov 04, 2015 11:12:20.00 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 04, 2015 11:12:20.00 NRL_onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:227:5
+Nov 04, 2015 11:12:20.00 Line: 1334, column: 5
+
+Nov 04, 2015 18:19:50.06 NEW SESSION
+Nov 04, 2015 18:19:50.06 1446641390076	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+Nov 05, 2015 13:01:09.03 NEW SESSION
+Nov 05, 2015 13:01:09.03 E/MPEG4Extractor( 2264): No width or height, assuming worst case 1080p
+Nov 05, 2015 13:01:09.03 E/MPEG4Extractor( 2264): No width or height, assuming worst case 1080p
+Nov 05, 2015 13:01:13.61 Handler function NRL_getSecurityInfo threw an exception: TypeError: this.transport is null
+Nov 05, 2015 13:01:13.62 Stack: DSC_send@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1334:5
+Nov 05, 2015 13:01:13.62 NEA_addSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webconsole.js:1924:5
+Nov 05, 2015 13:01:13.62 NRL_getSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:273:5
+Nov 05, 2015 13:01:13.62 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 05, 2015 13:01:13.62 NRL_onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:227:5
+Nov 05, 2015 13:01:13.62 Line: 1334, column: 5
+Nov 05, 2015 13:01:13.62 Handler function NRL_getSecurityInfo threw an exception: TypeError: this.transport is null
+Nov 05, 2015 13:01:13.62 Stack: DSC_send@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1334:5
+Nov 05, 2015 13:01:13.62 NEA_addSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webconsole.js:1924:5
+Nov 05, 2015 13:01:13.62 NRL_getSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:273:5
+Nov 05, 2015 13:01:13.62 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 05, 2015 13:01:13.62 NRL_onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:227:5
+Nov 05, 2015 13:01:13.62 Line: 1334, column: 5
+Nov 05, 2015 13:01:13.63 Handler function NRL_getSecurityInfo threw an exception: TypeError: this.transport is null
+Nov 05, 2015 13:01:13.63 Stack: DSC_send@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1334:5
+Nov 05, 2015 13:01:13.63 NEA_addSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webconsole.js:1924:5
+Nov 05, 2015 13:01:13.63 NRL_getSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:273:5
+Nov 05, 2015 13:01:13.63 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 05, 2015 13:01:13.63 NRL_onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:227:5
+Nov 05, 2015 13:01:13.63 Line: 1334, column: 5
+Nov 05, 2015 13:01:15.80 Handler function NRL_getSecurityInfo threw an exception: TypeError: this.transport is null
+Nov 05, 2015 13:01:15.80 Stack: DSC_send@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1334:5
+Nov 05, 2015 13:01:15.80 NEA_addSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webconsole.js:1924:5
+Nov 05, 2015 13:01:15.80 NRL_getSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:273:5
+Nov 05, 2015 13:01:15.80 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 05, 2015 13:01:15.80 NRL_onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:227:5
+Nov 05, 2015 13:01:15.81 Line: 1334, column: 5
+
+Nov 07, 2015 13:02:37.59 NEW SESSION
+Nov 07, 2015 13:02:37.60 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 07, 2015 15:22:52.76 1446889972777	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+Nov 09, 2015 10:01:43.30 NEW SESSION
+Nov 09, 2015 10:01:43.30 1447043503296	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 09, 2015 12:00:23.31 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 09, 2015 12:01:02.97 console.error: 
+Nov 09, 2015 12:01:02.97   Protocol error (noSuchActor): No such actor for ID: server1.conn1.profilerActor20
+Nov 09, 2015 12:23:38.10 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 09, 2015 13:28:23.15 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 09, 2015 13:29:15.59 console.error: 
+Nov 09, 2015 13:29:15.59   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+Nov 09, 2015 13:31:28.08 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 09, 2015 13:32:05.89 console.error: 
+Nov 09, 2015 13:32:05.89   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+Nov 09, 2015 17:03:51.31 console.warn: Asynchronous operation was aborted as selection changed.
+
+Nov 10, 2015 10:01:42.92 NEW SESSION
+Nov 10, 2015 10:01:42.92 1447129902916	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 10, 2015 10:22:24.27 I/SampleTable( 4684): There are reordered frames present.
+Nov 10, 2015 10:22:24.27 I/SampleTable( 4684): There are reordered frames present.
+Nov 10, 2015 12:31:45.66 [Child 3248] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Nov 10, 2015 12:31:45.66 [Child 3248] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Nov 10, 2015 12:41:18.68 [NPAPI 4164] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Nov 10, 2015 15:42:13.40 [Child 2812] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Nov 10, 2015 15:42:13.40 [Child 2812] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+
+Nov 16, 2015 13:26:32.61 NEW SESSION
+Nov 16, 2015 13:26:32.61 1447660592620	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 16, 2015 13:43:38.18 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 16, 2015 17:18:23.63 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 16, 2015 18:14:27.74 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 16, 2015 18:14:27.75 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 16, 2015 18:14:27.76 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 16, 2015 18:14:27.76 @http://canvasjs.com/html5-javascript-area-chart/:584:7
+Nov 16, 2015 18:14:27.76 m.event.dispatch@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:8497
+Nov 16, 2015 18:14:27.77 m.event.add/r.handle@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:5235
+Nov 16, 2015 18:16:02.16 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 16, 2015 18:16:02.16 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 16, 2015 18:16:02.16 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 16, 2015 18:16:02.16 @http://canvasjs.com/html5-javascript-area-chart/:584:7
+Nov 16, 2015 18:16:02.16 m.event.dispatch@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:8497
+Nov 16, 2015 18:16:02.16 m.event.add/r.handle@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:5235
+Nov 16, 2015 18:18:09.43 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 16, 2015 18:18:09.43 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 16, 2015 18:18:09.43 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 16, 2015 18:18:09.43 @http://canvasjs.com/html5-javascript-area-chart/:584:7
+Nov 16, 2015 18:18:09.43 m.event.dispatch@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:8497
+Nov 16, 2015 18:18:09.43 m.event.add/r.handle@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:5235
+Nov 16, 2015 18:28:17.81 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 16, 2015 18:28:17.81 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 16, 2015 18:28:17.81 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 16, 2015 18:28:17.81 @http://canvasjs.com/html5-javascript-area-chart/:584:7
+Nov 16, 2015 18:28:17.81 m.event.dispatch@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:8497
+Nov 16, 2015 18:28:17.81 m.event.add/r.handle@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:5235
+Nov 16, 2015 18:28:37.96 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 16, 2015 18:28:37.96 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 16, 2015 18:28:37.96 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 16, 2015 18:28:37.97 @http://canvasjs.com/html5-javascript-area-chart/:584:7
+Nov 16, 2015 18:28:37.97 m.event.dispatch@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:8497
+Nov 16, 2015 18:28:37.97 m.event.add/r.handle@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:5235
+Nov 16, 2015 19:07:24.56 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 16, 2015 19:10:30.31 console.error: 
+Nov 16, 2015 19:10:30.31   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+
+Nov 16, 2015 19:18:19.71 NEW SESSION
+Nov 16, 2015 19:18:19.71 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 16, 2015 19:18:57.97 console.error: 
+Nov 16, 2015 19:18:57.97   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+Nov 16, 2015 19:28:10.87 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 16, 2015 19:28:58.12 console.error: 
+Nov 16, 2015 19:28:58.12   Message: Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:28:58.12   Stack:
+Nov 16, 2015 19:28:58.12     mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:28:58.12 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:28:58.12 
+Nov 16, 2015 19:28:58.12 mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:28:58.12 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:28:58.12 console.error: 
+Nov 16, 2015 19:28:58.12   Message: Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:28:58.13   Stack:
+Nov 16, 2015 19:28:58.13     mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:28:58.13 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:28:58.13 
+Nov 16, 2015 19:28:58.13 mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:28:58.13 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:28:58.13 console.error: 
+Nov 16, 2015 19:28:58.13   Message: Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:28:58.13   Stack:
+Nov 16, 2015 19:28:58.13     mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:28:58.13 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:28:58.13 
+Nov 16, 2015 19:28:58.13 mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:28:58.13 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:28:58.20 console.error: 
+Nov 16, 2015 19:28:58.20   Protocol error (unknownError): Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:28:58.20 console.error: 
+Nov 16, 2015 19:28:58.20   Protocol error (unknownError): Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:28:58.20 console.error: 
+Nov 16, 2015 19:28:58.20   Protocol error (unknownError): Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:30:04.22 console.error: 
+Nov 16, 2015 19:30:04.23   Message: Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:30:04.23   Stack:
+Nov 16, 2015 19:30:04.23     mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:30:04.23 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:30:04.23 
+Nov 16, 2015 19:30:04.23 mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:30:04.23 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:30:04.23 console.error: 
+Nov 16, 2015 19:30:04.23   Message: Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:30:04.23   Stack:
+Nov 16, 2015 19:30:04.23     mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:30:04.23 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:30:04.23 
+Nov 16, 2015 19:30:04.23 mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:30:04.23 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:30:04.23 console.error: 
+Nov 16, 2015 19:30:04.23   Message: Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:30:04.24   Stack:
+Nov 16, 2015 19:30:04.24     mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:30:04.24 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:30:04.24 
+Nov 16, 2015 19:30:04.24 mainThreadFetch/onResponse@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:493:23
+Nov 16, 2015 19:30:04.24 NetUtil_asyncFetch/<.onStopRequest@resource://gre/modules/NetUtil.jsm:128:17
+Nov 16, 2015 19:30:04.29 console.error: 
+Nov 16, 2015 19:30:04.29   Protocol error (unknownError): Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:30:04.29 console.error: 
+Nov 16, 2015 19:30:04.29   Protocol error (unknownError): Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:30:04.29 console.error: 
+Nov 16, 2015 19:30:04.30   Protocol error (unknownError): Error: Failed to fetch http://localhost:8080/trainingmanagementsystem/faces/css/style.css. Code 2152398850.
+Nov 16, 2015 19:30:04.67 console.error: 
+Nov 16, 2015 19:30:04.67   navigated; resolution of _defaultNode aborted
+Nov 16, 2015 19:31:06.15 console.error: 
+Nov 16, 2015 19:31:06.15   navigated; resolution of _defaultNode aborted
+Nov 16, 2015 19:32:19.72 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 16, 2015 19:56:35.67 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 16, 2015 19:56:35.67 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 16, 2015 19:56:35.68 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 16, 2015 19:56:35.68 @http://canvasjs.com/html5-javascript-area-chart/:584:7
+Nov 16, 2015 19:56:35.68 m.event.dispatch@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:8497
+Nov 16, 2015 19:56:35.68 m.event.add/r.handle@http://canvasjs.com/wp-includes/js/jquery/jquery.js?ver=1.11.2:3:5235
+Nov 16, 2015 20:08:42.50 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 16, 2015 20:09:04.12 console.error: 
+Nov 16, 2015 20:09:04.13   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+
+Nov 17, 2015 10:13:43.42 NEW SESSION
+Nov 17, 2015 10:13:43.42 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 17, 2015 10:14:40.73 console.error: 
+Nov 17, 2015 10:14:40.73   Message: Error: Unexpected packet server1.conn0.customhighlighter97, {"from":"server1.conn0.customhighlighter97","error":"noSuchActor","message":"No such actor for ID: server1.conn0.customhighlighter97"}
+Nov 17, 2015 10:14:40.73   Stack:
+Nov 17, 2015 10:14:40.73     Front<.onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1210:17
+Nov 17, 2015 10:14:40.73 DebuggerClient.prototype.onPacket@resource://gre/modules/devtools/dbg-client.jsm:976:7
+Nov 17, 2015 10:14:40.73 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 10:14:40.73 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 10:14:40.73 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 10:14:40.73 
+Nov 17, 2015 10:14:40.74 Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server1.conn0.customhighlighter97, {"from":"server1.conn0.customhighlighter97","error":"noSuchActor","message":"No such actor for ID: server1.conn0.customhighlighter97"}
+Nov 17, 2015 10:14:40.75 Stack: Front<.onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1210:17
+Nov 17, 2015 10:14:40.75 DebuggerClient.prototype.onPacket@resource://gre/modules/devtools/dbg-client.jsm:976:7
+Nov 17, 2015 10:14:40.75 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 10:14:40.75 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 10:14:40.75 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 10:14:40.75 Line: 1210, column: 17
+Nov 17, 2015 10:14:40.75 console.error: 
+Nov 17, 2015 10:14:40.75   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+Nov 17, 2015 11:00:34.19 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 17, 2015 11:00:58.32 *************************
+Nov 17, 2015 11:00:58.32 A coding exception was thrown in a Promise resolution callback.
+Nov 17, 2015 11:00:58.32 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Nov 17, 2015 11:00:58.32 
+Nov 17, 2015 11:00:58.32 Full message: TypeError: node is null
+Nov 17, 2015 11:00:58.32 Full stack: HTMLBreadcrumbs.prototype.handleKeyPress/this._keyPromise<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/inspector/breadcrumbs.js:383:7
+Nov 17, 2015 11:00:58.32 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 17, 2015 11:00:58.32 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 17, 2015 11:00:58.32 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 17, 2015 11:00:58.32 
+Nov 17, 2015 11:00:58.32 *************************
+Nov 17, 2015 11:50:16.93 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 17, 2015 12:11:09.91 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 17, 2015 12:11:09.92 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 17, 2015 12:11:09.92 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 17, 2015 12:16:23.31 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 17, 2015 12:16:23.31 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 17, 2015 12:16:23.31 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 17, 2015 12:21:25.38 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 17, 2015 12:21:25.38 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 17, 2015 12:21:25.38 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 17, 2015 12:29:55.23 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 17, 2015 12:29:55.23 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 17, 2015 12:29:55.23 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 17, 2015 13:15:46.79 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 17, 2015 13:16:30.56 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 17, 2015 13:17:56.65 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 17, 2015 13:17:56.65 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 17, 2015 13:17:56.65 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 17, 2015 13:26:32.73 1447746992748	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 17, 2015 13:28:37.39 console.error: 
+Nov 17, 2015 13:28:37.39   Protocol error (noSuchActor): No such actor for ID: server1.conn2.profilerActor20
+
+Nov 17, 2015 17:42:26.74 NEW SESSION
+Nov 17, 2015 17:42:26.74 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 17, 2015 21:31:33.92 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 17, 2015 22:21:45.34 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 17, 2015 22:23:17.22 console.error: 
+Nov 17, 2015 22:23:17.22   Message: TypeError: can't access dead object
+Nov 17, 2015 22:23:17.22   Stack:
+Nov 17, 2015 22:23:17.22     BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.22 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.22 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.23 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.23 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.23 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.23 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.24 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.27 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.27 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.27 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.27 
+Nov 17, 2015 22:23:17.27 BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.27 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.27 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.27 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.27 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.27 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.27 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.27 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.27 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.28 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.28 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.28 console.error: 
+Nov 17, 2015 22:23:17.28   Message: TypeError: can't access dead object
+Nov 17, 2015 22:23:17.28   Stack:
+Nov 17, 2015 22:23:17.28     BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.28 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.28 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.28 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.28 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.28 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.28 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.28 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.28 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.28 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.28 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.28 
+Nov 17, 2015 22:23:17.30 BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.30 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.30 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.30 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.30 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.30 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.31 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.31 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.31 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.31 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.31 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.31 console.error: 
+Nov 17, 2015 22:23:17.31   Message: TypeError: can't access dead object
+Nov 17, 2015 22:23:17.31   Stack:
+Nov 17, 2015 22:23:17.31     BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.31 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.31 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.31 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.31 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.32 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.32 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.32 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.32 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.32 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.32 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.32 
+Nov 17, 2015 22:23:17.32 BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.32 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.32 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.32 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.32 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.32 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.32 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.32 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.32 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.32 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.32 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.35 console.error: 
+Nov 17, 2015 22:23:17.35   Message: TypeError: can't access dead object
+Nov 17, 2015 22:23:17.35   Stack:
+Nov 17, 2015 22:23:17.35     BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.35 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.35 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.35 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.35 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.35 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.35 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.35 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.35 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.35 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.35 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.35 
+Nov 17, 2015 22:23:17.36 BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.36 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.36 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.36 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.36 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.36 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.36 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.36 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.36 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.36 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.36 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.36 console.error: 
+Nov 17, 2015 22:23:17.36   Message: TypeError: can't access dead object
+Nov 17, 2015 22:23:17.36   Stack:
+Nov 17, 2015 22:23:17.36     BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.36 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.36 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.36 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.36 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.36 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.36 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.36 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.36 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.36 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.36 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.36 
+Nov 17, 2015 22:23:17.36 BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.37 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.37 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.37 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.37 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.37 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.37 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.37 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.37 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.37 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.37 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.39 console.error: 
+Nov 17, 2015 22:23:17.39   Message: TypeError: can't access dead object
+Nov 17, 2015 22:23:17.39   Stack:
+Nov 17, 2015 22:23:17.39     BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.39 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.39 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.39 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.39 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.39 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.39 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.39 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.40 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.40 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.40 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.40 
+Nov 17, 2015 22:23:17.40 BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.40 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.40 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.40 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.40 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.40 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.40 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.40 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.40 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.40 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.40 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.41 console.error: 
+Nov 17, 2015 22:23:17.42   Message: TypeError: can't access dead object
+Nov 17, 2015 22:23:17.42   Stack:
+Nov 17, 2015 22:23:17.42     BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.42 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.42 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.42 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.42 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.42 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.42 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.42 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.42 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.42 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.42 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.42 
+Nov 17, 2015 22:23:17.42 BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.42 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.42 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.42 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.42 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.44 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.44 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.44 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.44 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.44 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.44 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.45 console.error: 
+Nov 17, 2015 22:23:17.45   Message: TypeError: can't access dead object
+Nov 17, 2015 22:23:17.45   Stack:
+Nov 17, 2015 22:23:17.45     BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.45 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.45 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.45 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.45 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.45 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.45 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.45 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.45 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.45 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.45 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.45 
+Nov 17, 2015 22:23:17.45 BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.45 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.45 BoxModelHighlighter.prototype<._update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1339:7
+Nov 17, 2015 22:23:17.45 BoxModelHighlighter.prototype<._show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1295:17
+Nov 17, 2015 22:23:17.45 AutoRefreshHighlighter.prototype.show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:914:17
+Nov 17, 2015 22:23:17.45 exports.HighlighterActor<.showBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:7
+Nov 17, 2015 22:23:17.45 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.45 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.45 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.45 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.45 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.46 console.error: 
+Nov 17, 2015 22:23:17.46   Message: TypeError: can't access dead object
+Nov 17, 2015 22:23:17.46   Stack:
+Nov 17, 2015 22:23:17.46     BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.46 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.46 AutoRefreshHighlighter.prototype.hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:929:5
+Nov 17, 2015 22:23:17.46 exports.HighlighterActor<.hideBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:255:5
+Nov 17, 2015 22:23:17.46 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.46 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.47 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.47 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.47 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.47 
+Nov 17, 2015 22:23:17.47 BoxModelHighlighter.prototype<._untrackMutations@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1315:7
+Nov 17, 2015 22:23:17.47 BoxModelHighlighter.prototype<._hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:1353:5
+Nov 17, 2015 22:23:17.47 AutoRefreshHighlighter.prototype.hide@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:929:5
+Nov 17, 2015 22:23:17.47 exports.HighlighterActor<.hideBoxModel<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:255:5
+Nov 17, 2015 22:23:17.47 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1013:19
+Nov 17, 2015 22:23:17.47 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1586:15
+Nov 17, 2015 22:23:17.47 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:569:11
+Nov 17, 2015 22:23:17.47 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:23:17.47 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Nov 17, 2015 22:25:27.87 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 17, 2015 22:31:05.98 console.error: 
+Nov 17, 2015 22:31:05.98   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+Nov 17, 2015 22:31:05.98 console.error: 
+Nov 17, 2015 22:31:05.98   Protocol error (noSuchActor): No such actor for ID: server1.conn1.profilerActor20
+Nov 17, 2015 22:31:05.99 console.error: 
+Nov 17, 2015 22:31:05.99   Protocol error (noSuchActor): No such actor for ID: server1.conn2.profilerActor20
+
+Nov 18, 2015 10:35:02.47 NEW SESSION
+Nov 18, 2015 10:35:02.47 *************************
+Nov 18, 2015 10:35:02.54 A coding exception was thrown and uncaught in a Task.
+Nov 18, 2015 10:35:02.71 
+Nov 18, 2015 10:35:02.71 Full message: TypeError: this.Paths is null
+Nov 18, 2015 10:35:02.71 Full stack: Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+Nov 18, 2015 10:35:02.71 worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+Nov 18, 2015 10:35:02.72 anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+Nov 18, 2015 10:35:02.72 @resource:///modules/sessionstore/SessionWorker.js:30:41
+Nov 18, 2015 10:35:02.72 
+Nov 18, 2015 10:35:02.72 *************************
+Nov 18, 2015 10:35:02.72 console.error: 
+Nov 18, 2015 10:35:02.72   Could not write session state file 
+Nov 18, 2015 10:35:02.72   Message: TypeError: this.Paths is null
+Nov 18, 2015 10:35:02.72   Stack:
+Nov 18, 2015 10:35:02.72     Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+Nov 18, 2015 10:35:02.72 worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+Nov 18, 2015 10:35:02.72 anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+Nov 18, 2015 10:35:02.72 @resource:///modules/sessionstore/SessionWorker.js:30:41
+Nov 18, 2015 10:35:02.72 
+Nov 18, 2015 10:35:02.72   Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+Nov 18, 2015 10:35:02.73 worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+Nov 18, 2015 10:35:02.73 anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+Nov 18, 2015 10:35:02.73 @resource:///modules/sessionstore/SessionWorker.js:30:41
+Nov 18, 2015 10:35:02.73 
+Nov 18, 2015 11:56:40.52 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 18, 2015 12:00:16.97 console.error: 
+Nov 18, 2015 12:00:16.97   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+Nov 18, 2015 12:05:21.17 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 18, 2015 12:08:25.68 console.error: 
+Nov 18, 2015 12:08:25.68   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+
+Nov 18, 2015 13:26:32.84 NEW SESSION
+Nov 18, 2015 13:26:32.84 1447833392857	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 18, 2015 13:26:53.30 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 18, 2015 13:35:33.59 console.error: 
+Nov 18, 2015 13:35:33.59   Protocol error (noSuchActor): No such actor for ID: server1.conn1.profilerActor20
+Nov 18, 2015 13:47:43.25 [Child 1028] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Nov 18, 2015 13:47:43.25 [Child 1028] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Nov 18, 2015 13:49:39.81 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 18, 2015 13:56:32.02 console.error: 
+Nov 18, 2015 13:56:32.02   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+Nov 18, 2015 14:05:35.32 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 18, 2015 14:10:39.47 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 18, 2015 14:10:55.06 console.error: 
+Nov 18, 2015 14:10:55.06   Protocol error (noSuchActor): No such actor for ID: server1.conn1.profilerActor20
+Nov 18, 2015 15:02:13.24 console.error: 
+Nov 18, 2015 15:02:13.24   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+
+Nov 18, 2015 17:30:05.54 NEW SESSION
+Nov 18, 2015 17:30:05.54 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 18, 2015 17:47:52.57 console.error: 
+Nov 18, 2015 17:47:52.58   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+
+Nov 19, 2015 12:50:55.19 NEW SESSION
+Nov 19, 2015 12:50:55.19 
+Nov 19, 2015 12:50:55.20 ###!!! [Parent][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 19, 2015 12:50:55.20 
+Nov 19, 2015 13:26:33.18 1447919793208	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+Nov 20, 2015 10:51:16.49 NEW SESSION
+Nov 20, 2015 10:51:16.49 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 20, 2015 11:49:49.21 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 20, 2015 13:37:14.65 1448006834657	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 20, 2015 18:23:52.40 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 20, 2015 18:29:40.01 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 20, 2015 18:29:40.02 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 20, 2015 18:29:40.03 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 20, 2015 19:27:40.63 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 20, 2015 19:27:40.63 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 20, 2015 19:27:40.64 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 20, 2015 19:59:19.13 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 20, 2015 19:59:19.13 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 20, 2015 19:59:19.13 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+
+Nov 21, 2015 15:13:41.54 NEW SESSION
+Nov 21, 2015 15:13:41.55 1448099021534	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 21, 2015 15:15:48.39 *************************
+Nov 21, 2015 15:15:48.40 A coding exception was thrown in a Promise resolution callback.
+Nov 21, 2015 15:15:48.40 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Nov 21, 2015 15:15:48.40 
+Nov 21, 2015 15:15:48.40 Full message: TypeError: aWindow is null
+Nov 21, 2015 15:15:48.40 Full stack: pbu_privacyContextFromWindow@resource://gre/modules/PrivateBrowsingUtils.jsm:49:5
+Nov 21, 2015 15:15:48.40 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:33:12
+Nov 21, 2015 15:15:48.40 LoginManagerContent.loginsFound@resource://gre/modules/LoginManagerContent.jsm:488:43
+Nov 21, 2015 15:15:48.41 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:15:48.41 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:15:48.41 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:15:48.41 
+Nov 21, 2015 15:15:48.41 *************************
+Nov 21, 2015 15:16:26.47 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Nov 21, 2015 15:16:26.47 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Nov 21, 2015 15:16:26.47 nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15486:21
+Nov 21, 2015 15:25:46.59 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 21, 2015 15:27:23.35 console.error: 
+Nov 21, 2015 15:27:23.35   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.35 
+Nov 21, 2015 15:27:23.35 Request stack:
+Nov 21, 2015 15:27:23.35 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.35 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.35 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.35 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.35 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.35 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.35 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.35 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.35 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.35 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.36 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.36 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.36 
+Nov 21, 2015 15:27:23.36   Stack:
+Nov 21, 2015 15:27:23.36     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.36 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.36 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.36 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.36 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.36 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.36 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.36 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.36 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.36 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.36 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.36 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.36 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.36 
+Nov 21, 2015 15:27:23.36 console.error: 
+Nov 21, 2015 15:27:23.36   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.36 
+Nov 21, 2015 15:27:23.36 Request stack:
+Nov 21, 2015 15:27:23.36 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.36 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.36 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.36 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.37 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.37 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.37 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.37 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.37 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.37 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.37 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.37 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.37 
+Nov 21, 2015 15:27:23.37   Stack:
+Nov 21, 2015 15:27:23.37     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.37 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.37 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.37 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.37 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.37 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.37 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.37 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.37 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.37 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.37 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.37 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.37 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.38 
+Nov 21, 2015 15:27:23.38 console.error: 
+Nov 21, 2015 15:27:23.38   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.38 
+Nov 21, 2015 15:27:23.38 Request stack:
+Nov 21, 2015 15:27:23.38 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.38 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.38 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.38 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.38 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.38 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.38 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.38 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.38 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.38 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.38 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.38 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.38 
+Nov 21, 2015 15:27:23.38   Stack:
+Nov 21, 2015 15:27:23.38     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.38 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.38 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.38 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.38 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.39 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.39 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.39 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.39 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.39 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.39 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.39 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.39 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.39 
+Nov 21, 2015 15:27:23.39 console.error: 
+Nov 21, 2015 15:27:23.39   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.39 
+Nov 21, 2015 15:27:23.39 Request stack:
+Nov 21, 2015 15:27:23.39 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.39 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.39 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.39 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.39 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.39 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.39 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.39 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.39 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.39 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.39 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.39 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.40 
+Nov 21, 2015 15:27:23.40   Stack:
+Nov 21, 2015 15:27:23.40     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.40 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.40 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.40 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.40 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.40 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.40 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.40 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.40 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.40 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.40 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.40 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.40 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.40 
+Nov 21, 2015 15:27:23.40 console.error: 
+Nov 21, 2015 15:27:23.40   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.40 
+Nov 21, 2015 15:27:23.40 Request stack:
+Nov 21, 2015 15:27:23.40 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.40 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.40 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.40 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.41 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.41 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.41 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.41 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.41 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.41 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.41 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.41 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.41 
+Nov 21, 2015 15:27:23.41   Stack:
+Nov 21, 2015 15:27:23.41     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.41 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.41 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.41 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.41 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.41 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.41 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.41 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.41 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.41 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.41 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.41 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.41 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.41 
+Nov 21, 2015 15:27:23.41 console.error: 
+Nov 21, 2015 15:27:23.41   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.41 
+Nov 21, 2015 15:27:23.42 Request stack:
+Nov 21, 2015 15:27:23.42 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.42 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.42 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.42 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.42 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.42 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.42 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.42 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.42 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.42 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.42 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.42 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.42 
+Nov 21, 2015 15:27:23.42   Stack:
+Nov 21, 2015 15:27:23.42     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.42 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.42 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.42 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.42 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.42 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.42 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.42 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.42 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.42 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.42 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.42 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.42 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.42 
+Nov 21, 2015 15:27:23.42 console.error: 
+Nov 21, 2015 15:27:23.43   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.43 
+Nov 21, 2015 15:27:23.43 Request stack:
+Nov 21, 2015 15:27:23.43 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.43 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.43 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.43 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.43 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.43 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.43 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.43 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.43 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.43 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.43 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.43 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.43 
+Nov 21, 2015 15:27:23.43   Stack:
+Nov 21, 2015 15:27:23.43     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.43 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.43 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.43 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.43 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.43 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.43 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.43 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.43 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.43 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.43 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.43 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.44 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.44 
+Nov 21, 2015 15:27:23.44 console.error: 
+Nov 21, 2015 15:27:23.44   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.44 
+Nov 21, 2015 15:27:23.44 Request stack:
+Nov 21, 2015 15:27:23.44 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.44 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.44 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.44 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.44 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.44 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.44 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.44 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.44 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.44 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.44 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.44 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.44 
+Nov 21, 2015 15:27:23.44   Stack:
+Nov 21, 2015 15:27:23.44     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.44 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.44 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.44 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.44 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.44 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.44 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.44 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.44 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.44 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.45 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.45 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.45 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.45 
+Nov 21, 2015 15:27:23.45 console.error: 
+Nov 21, 2015 15:27:23.45   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.45 
+Nov 21, 2015 15:27:23.45 Request stack:
+Nov 21, 2015 15:27:23.45 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.45 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.45 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.45 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.45 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.45 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.45 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.45 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.45 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.45 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.45 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.45 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.45 
+Nov 21, 2015 15:27:23.45   Stack:
+Nov 21, 2015 15:27:23.45     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.45 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.45 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.45 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.45 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.45 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.45 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.46 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.46 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.46 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.46 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.46 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.46 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.46 
+Nov 21, 2015 15:27:23.46 console.error: 
+Nov 21, 2015 15:27:23.46   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.46 
+Nov 21, 2015 15:27:23.46 Request stack:
+Nov 21, 2015 15:27:23.46 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.46 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.46 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.46 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.46 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.46 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.46 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.46 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.46 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.46 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.46 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.46 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.46 
+Nov 21, 2015 15:27:23.46   Stack:
+Nov 21, 2015 15:27:23.46     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.46 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.46 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.46 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.46 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.47 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.47 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.47 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.47 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.47 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.47 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.47 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.47 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.47 
+Nov 21, 2015 15:27:23.47 console.error: 
+Nov 21, 2015 15:27:23.47   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.47 
+Nov 21, 2015 15:27:23.47 Request stack:
+Nov 21, 2015 15:27:23.47 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.47 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.47 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.47 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.47 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.47 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.47 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.47 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.47 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.47 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.47 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.47 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.47 
+Nov 21, 2015 15:27:23.47   Stack:
+Nov 21, 2015 15:27:23.47     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.47 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.47 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.48 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.48 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.48 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.48 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.48 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.48 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.48 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.48 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.48 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.48 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.48 
+Nov 21, 2015 15:27:23.48 console.error: 
+Nov 21, 2015 15:27:23.48   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.48 
+Nov 21, 2015 15:27:23.48 Request stack:
+Nov 21, 2015 15:27:23.48 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.48 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.48 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.48 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.48 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.48 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.48 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.48 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.48 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.48 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.48 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.48 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.48 
+Nov 21, 2015 15:27:23.48   Stack:
+Nov 21, 2015 15:27:23.49     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.49 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.49 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.49 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.49 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.49 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.49 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.49 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.49 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.49 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.49 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.49 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.49 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.50 
+Nov 21, 2015 15:27:23.50 console.error: 
+Nov 21, 2015 15:27:23.50   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.50 
+Nov 21, 2015 15:27:23.50 Request stack:
+Nov 21, 2015 15:27:23.50 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.50 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.50 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.50 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.50 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.50 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.50 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.50 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.50 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.50 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.50 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.50 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.50 
+Nov 21, 2015 15:27:23.50   Stack:
+Nov 21, 2015 15:27:23.50     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.50 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.50 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.51 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.51 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.51 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.51 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.51 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.51 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.51 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.51 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.51 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.51 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.51 
+Nov 21, 2015 15:27:23.51 console.error: 
+Nov 21, 2015 15:27:23.51   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.51 
+Nov 21, 2015 15:27:23.51 Request stack:
+Nov 21, 2015 15:27:23.51 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.51 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.51 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.51 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.51 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.51 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.51 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.51 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.51 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.51 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.52 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.52 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.52 
+Nov 21, 2015 15:27:23.52   Stack:
+Nov 21, 2015 15:27:23.52     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.52 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.52 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.52 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.52 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.52 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.52 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.52 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.52 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.52 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.52 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.52 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.52 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.52 
+Nov 21, 2015 15:27:23.52 console.error: 
+Nov 21, 2015 15:27:23.52   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.52 
+Nov 21, 2015 15:27:23.52 Request stack:
+Nov 21, 2015 15:27:23.52 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.52 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.53 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.53 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.53 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.53 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.53 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.53 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.53 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.53 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.53 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.53 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.53 
+Nov 21, 2015 15:27:23.53   Stack:
+Nov 21, 2015 15:27:23.53     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.53 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.53 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.53 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.53 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.53 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.53 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.53 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.53 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.53 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.54 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.54 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.54 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.54 
+Nov 21, 2015 15:27:23.54 console.error: 
+Nov 21, 2015 15:27:23.54   Message: Error: Connection closed, pending request to server1.conn0.44, type getOriginalLocation failed
+Nov 21, 2015 15:27:23.54 
+Nov 21, 2015 15:27:23.54 Request stack:
+Nov 21, 2015 15:27:23.54 Front<.request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1178:7
+Nov 21, 2015 15:27:23.54 frontProto/</proto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1330:14
+Nov 21, 2015 15:27:23.54 StyleRuleFront<.getOriginalLocation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:1412:12
+Nov 21, 2015 15:27:23.54 Rule.prototype.getOriginalSourceStrings@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:552:12
+Nov 21, 2015 15:27:23.54 RuleEditor.prototype.updateSourceLink@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2509:7
+Nov 21, 2015 15:27:23.54 RuleEditor.prototype._create@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2403:5
+Nov 21, 2015 15:27:23.54 RuleEditor@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2361:3
+Nov 21, 2015 15:27:23.54 CssRuleView.prototype._createEditors@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2005:23
+Nov 21, 2015 15:27:23.54 CssRuleView.prototype._populate/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:1812:7
+Nov 21, 2015 15:27:23.54 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.54 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.54 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.54 
+Nov 21, 2015 15:27:23.54   Stack:
+Nov 21, 2015 15:27:23.54     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1125:23
+Nov 21, 2015 15:27:23.54 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:995:5
+Nov 21, 2015 15:27:23.54 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.54 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.54 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:947:5
+Nov 21, 2015 15:27:23.54 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:820:9
+Nov 21, 2015 15:27:23.55 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1127:5
+Nov 21, 2015 15:27:23.55 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3714:5
+Nov 21, 2015 15:27:23.55 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1757:15
+Nov 21, 2015 15:27:23.55 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Nov 21, 2015 15:27:23.55 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 21, 2015 15:27:23.55 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 21, 2015 15:27:23.55 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 21, 2015 15:27:23.55 
+Nov 21, 2015 15:53:30.03 E/MPEG4Extractor( 4528): No width or height, assuming worst case 1080p
+Nov 21, 2015 15:53:31.62 E/MPEG4Extractor( 4528): No width or height, assuming worst case 1080p
+Nov 21, 2015 15:54:16.44 E/MPEG4Extractor( 4528): No width or height, assuming worst case 1080p
+Nov 21, 2015 15:54:22.91 E/MPEG4Extractor( 4528): No width or height, assuming worst case 1080p
+Nov 21, 2015 16:12:44.26 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 21, 2015 16:16:18.61 console.error: 
+Nov 21, 2015 16:16:18.61   navigated; resolution of _defaultNode aborted
+
+Nov 23, 2015 10:23:22.56 NEW SESSION
+Nov 23, 2015 10:23:22.56 1448254402550	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 23, 2015 11:12:35.91 console.warn: Asynchronous operation was aborted as selection changed.
+
+Nov 23, 2015 15:44:53.15 NEW SESSION
+Nov 23, 2015 15:44:53.15 [Child 4888] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Nov 23, 2015 15:44:53.15 [Child 4888] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+
+Nov 23, 2015 19:25:40.04 NEW SESSION
+Nov 23, 2015 19:25:40.04 console.warn: Asynchronous operation was aborted as selection changed.
+
+Nov 24, 2015 12:49:36.08 NEW SESSION
+Nov 24, 2015 12:49:36.08 1448349575984	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+Nov 25, 2015 14:45:34.34 NEW SESSION
+Nov 25, 2015 14:45:34.34 1448442934245	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 25, 2015 15:28:53.00 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 25, 2015 15:34:01.70 console.error: 
+Nov 25, 2015 15:34:01.71   navigated; resolution of _defaultNode aborted
+Nov 25, 2015 15:34:01.92 console.error: 
+Nov 25, 2015 15:34:01.92   navigated; resolution of _defaultNode aborted
+Nov 25, 2015 15:34:09.97 console.error: 
+Nov 25, 2015 15:34:09.97   navigated; resolution of _defaultNode aborted
+Nov 25, 2015 15:34:10.31 console.error: 
+Nov 25, 2015 15:34:10.31   navigated; resolution of _defaultNode aborted
+Nov 25, 2015 15:34:32.73 *************************
+Nov 25, 2015 15:34:32.73 A coding exception was thrown in a Promise resolution callback.
+Nov 25, 2015 15:34:32.73 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Nov 25, 2015 15:34:32.74 
+Nov 25, 2015 15:34:32.74 Full message: TypeError: can't access dead object
+Nov 25, 2015 15:34:32.74 Full stack: StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.74 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.74 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.74 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.74 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.74 
+Nov 25, 2015 15:34:32.74 *************************
+Nov 25, 2015 15:34:32.74 console.error: 
+Nov 25, 2015 15:34:32.74   Message: TypeError: can't access dead object
+Nov 25, 2015 15:34:32.74   Stack:
+Nov 25, 2015 15:34:32.74     StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.74 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.74 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.74 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.74 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.74 
+Nov 25, 2015 15:34:32.76 StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.76 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.76 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.76 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.77 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.80 *************************
+Nov 25, 2015 15:34:32.80 A coding exception was thrown in a Promise resolution callback.
+Nov 25, 2015 15:34:32.80 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Nov 25, 2015 15:34:32.81 
+Nov 25, 2015 15:34:32.81 Full message: TypeError: can't access dead object
+Nov 25, 2015 15:34:32.81 Full stack: StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.81 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.81 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.81 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.81 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.81 
+Nov 25, 2015 15:34:32.81 *************************
+Nov 25, 2015 15:34:32.81 console.error: 
+Nov 25, 2015 15:34:32.81   Message: TypeError: can't access dead object
+Nov 25, 2015 15:34:32.82   Stack:
+Nov 25, 2015 15:34:32.82     StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.82 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.82 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.82 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.82 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.82 
+Nov 25, 2015 15:34:32.82 StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.82 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.82 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.82 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.82 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.82 *************************
+Nov 25, 2015 15:34:32.82 A coding exception was thrown in a Promise resolution callback.
+Nov 25, 2015 15:34:32.82 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Nov 25, 2015 15:34:32.82 
+Nov 25, 2015 15:34:32.82 Full message: TypeError: can't access dead object
+Nov 25, 2015 15:34:32.82 Full stack: StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.83 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.83 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.83 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.83 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.83 
+Nov 25, 2015 15:34:32.83 *************************
+Nov 25, 2015 15:34:32.83 console.error: 
+Nov 25, 2015 15:34:32.83   Message: TypeError: can't access dead object
+Nov 25, 2015 15:34:32.83   Stack:
+Nov 25, 2015 15:34:32.83     StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.83 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.83 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.83 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.83 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.83 
+Nov 25, 2015 15:34:32.83 StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.83 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.84 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.84 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.84 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.84 *************************
+Nov 25, 2015 15:34:32.84 A coding exception was thrown in a Promise resolution callback.
+Nov 25, 2015 15:34:32.84 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Nov 25, 2015 15:34:32.84 
+Nov 25, 2015 15:34:32.84 Full message: TypeError: can't access dead object
+Nov 25, 2015 15:34:32.84 Full stack: StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.84 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.84 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.84 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.85 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.85 
+Nov 25, 2015 15:34:32.85 *************************
+Nov 25, 2015 15:34:32.85 console.error: 
+Nov 25, 2015 15:34:32.85   Message: TypeError: can't access dead object
+Nov 25, 2015 15:34:32.85   Stack:
+Nov 25, 2015 15:34:32.85     StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.85 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.85 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.85 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.85 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.85 
+Nov 25, 2015 15:34:32.85 StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:425:5
+Nov 25, 2015 15:34:32.85 StyleSheetActor<.getOriginalLocation</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:765:9
+Nov 25, 2015 15:34:32.85 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:934:23
+Nov 25, 2015 15:34:32.85 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Nov 25, 2015 15:34:32.85 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:1
+Nov 25, 2015 15:34:32.85 console.error: 
+Nov 25, 2015 15:34:32.86   Protocol error (unknownError): TypeError: can't access dead object
+Nov 25, 2015 15:34:32.86 console.error: 
+Nov 25, 2015 15:34:32.86   Protocol error (unknownError): TypeError: can't access dead object
+Nov 25, 2015 15:34:32.86 console.error: 
+Nov 25, 2015 15:34:32.86   Protocol error (unknownError): TypeError: can't access dead object
+Nov 25, 2015 15:34:32.86 console.error: 
+Nov 25, 2015 15:34:32.86   Protocol error (unknownError): TypeError: can't access dead object
+Nov 25, 2015 15:34:33.08 console.error: 
+Nov 25, 2015 15:34:33.08   navigated; resolution of _defaultNode aborted
+Nov 25, 2015 15:34:33.28 console.error: 
+Nov 25, 2015 15:34:33.28   navigated; resolution of _defaultNode aborted
+Nov 25, 2015 15:34:44.98 console.error: 
+Nov 25, 2015 15:34:44.98   navigated; resolution of _defaultNode aborted
+Nov 25, 2015 15:34:45.21 console.error: 
+Nov 25, 2015 15:34:45.21   navigated; resolution of _defaultNode aborted
+Nov 25, 2015 15:39:08.99 console.error: 
+Nov 25, 2015 15:39:08.99   navigated; resolution of _defaultNode aborted
+Nov 25, 2015 15:39:09.04 console.error: 
+Nov 25, 2015 15:39:09.04   Protocol error (noSuchActor): No such actor for ID: server1.conn2.domnode69
+Nov 25, 2015 15:39:09.04 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 25, 2015 15:41:23.55 console.error: 
+Nov 25, 2015 15:41:23.55   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+
+Nov 25, 2015 17:38:39.52 NEW SESSION
+Nov 25, 2015 17:38:39.52 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 25, 2015 17:40:36.88 console.error: 
+Nov 25, 2015 17:40:36.88   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+
+Nov 25, 2015 18:20:49.12 NEW SESSION
+Nov 25, 2015 18:20:49.12 console.warn: Asynchronous operation was aborted as selection changed.
+
+Nov 25, 2015 18:39:20.12 NEW SESSION
+Nov 25, 2015 18:39:20.12 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 25, 2015 18:46:03.27 console.warn: Asynchronous operation was aborted as selection changed.
+Nov 25, 2015 19:22:46.54 console.error: 
+Nov 25, 2015 19:22:46.54   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+Nov 25, 2015 19:22:46.54 console.error: 
+Nov 25, 2015 19:22:46.54   Protocol error (noSuchActor): No such actor for ID: server1.conn1.profilerActor20
+Nov 25, 2015 19:59:19.71 console.warn: Asynchronous operation was aborted as selection changed.
+
+Nov 26, 2015 14:45:34.71 NEW SESSION
+Nov 26, 2015 14:45:34.71 1448529334739	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+Nov 30, 2015 11:30:16.88 NEW SESSION
+Nov 30, 2015 11:30:16.88 1448863216883	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 30, 2015 11:34:04.81 [Child 4368] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+
+Dec 01, 2015 11:33:12.88 NEW SESSION
+Dec 01, 2015 11:33:12.88 1448949792863	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Dec 01, 2015 11:40:35.63 console.warn: Asynchronous operation was aborted as selection changed.
+Dec 01, 2015 11:45:25.63 console.warn: Asynchronous operation was aborted as selection changed.
+Dec 01, 2015 11:45:32.21 console.error: 
+Dec 01, 2015 11:45:32.21   Protocol error (noSuchActor): No such actor for ID: server1.conn1.profilerActor20
+Dec 01, 2015 11:49:47.17 console.warn: Asynchronous operation was aborted as selection changed.
+
+Dec 01, 2015 12:58:14.49 NEW SESSION
+Dec 01, 2015 12:58:14.49 console.warn: Asynchronous operation was aborted as selection changed.
+Dec 01, 2015 13:03:59.55 console.error: 
+Dec 01, 2015 13:03:59.56   Protocol error (noSuchActor): No such actor for ID: server1.conn0.profilerActor20
+
+Dec 10, 2015 12:22:20.57 NEW SESSION
+Dec 10, 2015 12:22:20.57 1449730340548	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property

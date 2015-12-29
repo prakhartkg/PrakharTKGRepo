@@ -1,0 +1,37 @@
+package com.yash.ems.servlet;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.yash.ems.service.EmployeeService;
+import com.yash.ems.service.EmployeeServiceimpl;
+
+
+@WebServlet("/employeeServlet")
+public class EmployeeServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    public EmployeeServlet() {
+        // TODO Auto-generated constructor stub
+    }
+    
+    EmployeeService service=new EmployeeServiceimpl();
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		doPost(req,resp);
+	}
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("Servlet");
+		if(request.getParameter("save").equalsIgnoreCase("save")){
+			String name=request.getParameter("employeeName");
+			String city=request.getParameter("employeeName");
+			Double salary=Double.parseDouble(request.getParameter("employeeName")) ;
+			service.addEmployee(name,city,salary);
+		}
+	}
+
+}

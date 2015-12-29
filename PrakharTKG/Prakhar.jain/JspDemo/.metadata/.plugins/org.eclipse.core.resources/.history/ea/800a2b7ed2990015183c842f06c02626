@@ -1,0 +1,20 @@
+package syncdemo;
+ class Test{
+	
+	public static void main(String[] args) {
+		
+	
+	}
+}
+
+ 
+	 interface B{
+		 class C{
+			 
+		 }
+	 }
+ 
+	 
+	 class D implements B{
+		 
+	 }

@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+#maincontainer{
+	border: 2px solid blue;
+	height:600px;
+	background-color: gray;
+}
+#textarea{
+	background-color:pink;
+	height: 100%;
+	width: 40%;
+	float: left;
+}
+#formarea{
+	background-color:#00A3FF;
+	height: 100%;
+	width: 100%;
+	
+}
+#header{
+	background-color: #CCE6FF;
+	border:8px solid #85C2FF;
+	height: 120px;
+}
+#footer{
+	background-color: #CCE6FF;
+	border:8px solid #85C2FF;
+	height: 120px;
+}

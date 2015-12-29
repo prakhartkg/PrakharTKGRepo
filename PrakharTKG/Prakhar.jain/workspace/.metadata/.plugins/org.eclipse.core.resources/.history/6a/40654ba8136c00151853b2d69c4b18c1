@@ -1,0 +1,50 @@
+package com.yash.jsp.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.yash.jsp.Util.MyConnection;
+import com.yash.jsp.bean.Employee;
+
+public class EmployeeDAO {
+	
+
+	public static Employee searchEmployee(String id) {
+		String sql="Select * from employee";
+		Employee employee=null;
+		Connection connection=MyConnection.getConnection();
+		if(id!=null){
+			sql=sql+"where id="+id;
+			try {
+				PreparedStatement preparedStatement=connection.prepareStatement(sql);
+				ResultSet resultSet=preparedStatement.executeQuery();
+				while (resultSet.next()) {
+					employee=new Employee();
+					employee.setId(resultSet.getInt(1));
+					employee.setName(resultSet.getString(2));
+					employee.setCity(resultSet.getString(3));
+					employee.setPosition(resultSet.getString(4));
+					employee.setSalary(resultSet.getFloat(5));
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}else{
+			
+			try {
+				PreparedStatement preparedStatement=connection.prepareStatement(sql);
+				ResultSet resultSet=preparedStatement.executeQuery();
+				
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		return employee;
+	}
+}

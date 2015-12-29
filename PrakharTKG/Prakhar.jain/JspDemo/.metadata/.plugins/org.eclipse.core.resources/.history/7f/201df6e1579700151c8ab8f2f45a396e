@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="employeeServlet">
+		<table>
+			<tr>
+				<th>Employee_id</th>
+				<td><input type="text" value="" name="employee_id" disabled="disabled"></td>
+			</tr>
+			<tr>
+				<th>Name</th>
+				<td><input type="text" value="" name="employeeName" ></td>
+			</tr>
+			<tr>
+				<th>City</th>
+				<td><input type="text" name="employeeCity"></td>
+			</tr>
+			<tr>
+				<th>Salary</th>
+				<td><input type="text" name="employeeSalary"></td>
+			</tr>
+			<tr>
+			<td colspan="2"><input type="submit" value="Update" name="btn"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

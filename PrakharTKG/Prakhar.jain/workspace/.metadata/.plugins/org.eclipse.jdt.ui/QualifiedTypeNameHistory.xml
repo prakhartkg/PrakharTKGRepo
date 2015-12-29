@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.customer.Connection.CustomerConnection"/>
+<fullyQualifiedTypeName name="com.customer.presentation.SignUp"/>
+<fullyQualifiedTypeName name="java.io.Console"/>
+<fullyQualifiedTypeName name="com.customer.presentation.SignIn"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="com.customer.DAO.SignUpDAO"/>
+<fullyQualifiedTypeName name="com.customer.DAO.AccountDAO"/>
+<fullyQualifiedTypeName name="com.customer.Exceptions.InsufficientBalanceException"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.basic.DragRecognitionSupport.BeforeDrag"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.customer.Domain.Account"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="com.customer.Account.DAO.AccountDAO"/>
+<fullyQualifiedTypeName name="com.customer.Domain.Customer"/>
+<fullyQualifiedTypeName name="com.customer.DAO.SignInDAO"/>
+<fullyQualifiedTypeName name="java.net.ConnectException"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.yash.ITServiceDesk.Util.MyConnection"/>
+<fullyQualifiedTypeName name="com.yash.ITServiceDesk.DAO.ITServiceDeskDAO"/>
+<fullyQualifiedTypeName name="javax.jms.Session"/>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.yash.jsp.Util.MyConnection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.yash.jsp.bean.Employee"/>
+<fullyQualifiedTypeName name="com.yash.jsp.dao.EmployeeDAO"/>
+<fullyQualifiedTypeName name="com.yash.Domain.Employee"/>
+<fullyQualifiedTypeName name="com.yash.Domain.Address"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+</qualifiedTypeNameHistroy>

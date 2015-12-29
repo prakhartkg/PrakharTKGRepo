@@ -1,0 +1,28 @@
+package com.yash.CustomTag;
+
+import javax.servlet.jsp.JspException;
+import javax.servlet.jsp.JspWriter;
+import javax.servlet.jsp.tagext.TagSupport;
+
+public class MyCustomTag extends TagSupport{
+	private static final long serialVersionUID = 1L;
+	private String action;
+	
+	public void setAction(String action) {
+		this.action = action;
+	}
+	public int doStartTag() throws JspException {
+		try {
+
+			JspWriter out = pageContext.getOut();
+			out.println("<form action='"+action+"'>");
+			out.println("</form>")
+		} catch (Exception ioException) {
+			System.err.println("IO Exception");
+			System.err.println("ioException.toString()");
+		}
+		return SKIP_BODY;
+	}
+	
+
+}

@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+#maincontainer{
+	
+	height:1000px;
+	background-color: gray;
+}
+#textarea{
+	background-color:pink;
+	height: 100%;
+	width: 40%;
+	float: left;
+}
+#formarea{
+	background-color:#FFFFCC;
+	height: 100%;
+	width: 100%;
+	
+}
+#header{
+	background-color: #CCE6FF;
+	border:8px solid #85C2FF;
+	height: 120px;
+}
+#footer{
+	background-color: #CCE6FF;
+	border:8px solid #85C2FF;
+	height: 120px;
+}
+#dialog{
+	display:none;
+	width: 600px;
+	height: 400px;
+}
+#employee{
+	background-color:#3399FF;
+	color: black;
+	font: italic bold 12px/30px Georgia, serif;
+	width:320px;
+	height:230px;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+#show{
+	float:left;
+	
+}

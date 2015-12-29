@@ -1,0 +1,18 @@
+
+Dec 17, 2015 10:46:50.45 NEW SESSION
+Dec 17, 2015 10:46:50.45 console.warn: Asynchronous operation was aborted as selection changed.
+Dec 17, 2015 11:02:36.73 console.warn: Asynchronous operation was aborted as selection changed.
+
+Dec 17, 2015 15:48:58.86 NEW SESSION
+Dec 17, 2015 15:48:58.86 1450347538874	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+Dec 21, 2015 10:51:40.58 NEW SESSION
+Dec 21, 2015 10:51:40.58 1450675300585	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+Dec 21, 2015 15:08:30.95 NEW SESSION
+Dec 21, 2015 15:08:30.95 console.warn: Asynchronous operation was aborted as selection changed.
+Dec 21, 2015 15:15:18.51 console.error: 
+Dec 21, 2015 15:15:18.51   navigated; resolution of _defaultNode aborted
+
+Dec 22, 2015 11:51:20.95 NEW SESSION
+Dec 22, 2015 11:51:20.95 1450765280922	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property

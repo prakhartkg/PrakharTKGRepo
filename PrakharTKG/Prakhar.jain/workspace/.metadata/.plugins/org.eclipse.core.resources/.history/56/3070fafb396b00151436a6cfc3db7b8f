@@ -1,0 +1,53 @@
+package com.yash.customerLogin.view;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Properties;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class CustomerLogin
+ */
+@WebServlet("/CustomerLogin")
+public class CustomerLogin extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+   
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");
+		PrintWriter out=response.getWriter();
+		out.println("<html>");
+		out.println("<head>");
+		out.println("<Title>Login</title>");
+		out.println("</head>");
+		out.println("<body>");
+		Properties properties=(Properties) getServletContext().getAttribute("properties");
+		String welcome=(String) properties.get("title");
+		out.println("<h1>"+welcome+"</h1>");
+		String id=(String) properties.get("customer.id");
+		String pwd=(String) properties.get("customer.pwd");
+		out.println("<form action=\"ValidateCustomerServlet\">");	
+		out.println("<table>");
+		out.println("<tr>");
+		out.println("<td>"+id+"</td>");
+		out.println("<td><input type=\"text\" name=\"custId\"></td>");
+		out.println("</tr>");
+		out.println("<tr>");
+		out.println("<td>"+pwd+"</td>");
+		out.println("<td><input type=\"text\" name=\"custPwd\"></td>");
+		out.println("</tr>");
+		out.println("<tr>");
+		out.println("<td colspan=2><input type=\"submit\" value=\"Login\"></td>");
+		out.println("</tr>");
+		out.println("</table>");
+		out.println("</form>");
+		out.println("</body>");
+		out.println("</html>");
+		
+	}
+
+}

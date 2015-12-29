@@ -1,0 +1,13 @@
+<web-app>
+
+	<context-param>
+		<param-name>Email</param-name>
+		<param-value>wecare@yash.com</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>Mobile</param-name>
+		<param-value>989898989898</param-value>
+	</context-param>
+
+</web-app>

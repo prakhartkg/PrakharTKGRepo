@@ -1,0 +1,33 @@
+A)-Assignment
+ 
+1. Create an HTML page
+ 
+2. Add JavaScript that includes 2 prompts for input from the user ( Create HTML page take input from user and perform the arithmetic operation on that)
+ 
+3. Add JavaScript to concatenate these 2 input values together and display the result in an alert box
+ 
+ 
+B)-Assignment
+ 
+1. Create an HTML page
+ 
+2. Add JavaScript that includes 2 prompts for integer values from the user
+ 
+3. Add JavaScript to add these 2 values together and display the result in an alert box
+ 
+ 
+Also perform the following operation as well...!
+ 
+ 
+2)Perform DOM related operation.
+(Like assign the value to html element through javascript).
+ 
+3)Perform the visibility operation of html element through javascript.
+ 
+4)Create different variable of same name and try to access it.
+ 
+5)String related operation and at the same time deal with arithmatic one using javascript(concat and so on).
+ 
+6)Use the different display method like alert,log and so on.
+ 
+7)Add css style through javascript.

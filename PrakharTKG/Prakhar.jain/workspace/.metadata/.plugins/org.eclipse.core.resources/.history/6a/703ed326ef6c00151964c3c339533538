@@ -1,0 +1,9 @@
+package com.yash.CustomTag;
+
+import javax.servlet.jsp.tagext.TagSupport;
+
+public class MyCustomTag extends TagSupport{
+	
+	
+
+}

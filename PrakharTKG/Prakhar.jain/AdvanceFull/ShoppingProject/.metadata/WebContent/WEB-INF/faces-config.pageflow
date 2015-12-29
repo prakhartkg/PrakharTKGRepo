@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14454066432340" configfile="/ShoppingProject/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="Login.xhtml" x="480" y="180" id="pf14454067214541" referenceLink="//@navigationRule.3/@fromViewId|" outlinks="pf14454067214543 pf14454068463768 pf144540719925110" path="/Login.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="RegisterCustomer.xhtml" x="72" y="180" id="pf14454067214544" referenceLink="//@navigationRule.3/@navigationCase.0/@toViewId|" outlinks="pf14454067658767" inlinks="pf144540719925110" path="/RegisterCustomer.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Error.xhtml" x="288" y="348" id="pf14454067214546" referenceLink="//@navigationRule.2/@navigationCase.0/@toViewId|" inlinks="pf14454067214543 pf14454067658767" path="/Error.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Welcome.xhtml" x="324" y="36" id="pf14454068463769" referenceLink="//@navigationRule.4/@fromViewId|" outlinks="pf14458664237000" inlinks="pf14454068463768" path="/Welcome.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Payment.xhtml" x="121" y="83" id="pf14458664237001" referenceLink="//@navigationRule.4/@navigationCase.0/@toViewId|" inlinks="pf14458664237000" path="/Payment.xhtml"/>
+  <links id="pf14454067214543" target="pf14454067214546" source="pf14454067214541" outcome="Error" redirect="true"/>
+  <links id="pf14454067658767" target="pf14454067214546" source="pf14454067214544" outcome="Error" redirect="true"/>
+  <links id="pf14454068463768" target="pf14454068463769" source="pf14454067214541" outcome="Login" redirect="true"/>
+  <links id="pf144540719925110" target="pf14454067214544" source="pf14454067214541" outcome="register" redirect="true"/>
+  <links id="pf14458664237000" target="pf14458664237001" source="pf14454068463769" outcome="Payment"/>
+</pageflow:Pageflow>

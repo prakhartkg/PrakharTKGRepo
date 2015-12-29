@@ -1,0 +1,5 @@
+2015-11-02 13:32:05 INFO  Demo:8 - Hello
+2015-11-02 13:35:09 INFO  Demo:9 - demo method called
+2015-11-02 13:35:09 WARN  Demo:14 - THIS IS MEMO METHOD
+2015-11-02 13:38:09 INFO  Demo:9 - demo method called
+2015-11-02 13:38:09 WARN  Demo:14 - THIS IS MEMO METHOD

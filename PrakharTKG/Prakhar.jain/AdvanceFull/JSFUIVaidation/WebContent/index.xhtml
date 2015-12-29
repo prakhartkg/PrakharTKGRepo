@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	>
+
+<ui:composition template="/WEB-INF/temp/master.xhtml">
+	
+	<ui:define name="content">
+	   <div id="table">
+	    <h:form>
+	    	<table>
+	    		<tr>
+	    			<td><p:outputLabel value="Name"/></td>
+	    			<td><p:inputText value="#{employeeBean.name}" id="name" required="true" requiredMessage="Name is Req"
+	    			validatorMessage="Enter Proper Name">
+	    				<f:validateRegex pattern="/d"/>
+	    			</p:inputText>
+	    			</td>
+	    			<td><h:message for="name"/></td>
+	    		</tr>
+	    		<tr>
+	    			<td><p:outputLabel value="Salary"/></td>
+	    			<td><p:inputText value="#{employeeBean.salary}" id="salary"/></td>
+	    			<td><h:message for="salary"/></td>
+	    		</tr>
+	    		<tr>
+	    			<td><p:outputLabel value="Email"/></td>
+	    			<td><p:inputText value="#{employeeBean.email}" id="email"/></td>
+	    			<td><h:message for="email"/></td>
+	    		</tr>
+	    		<tr>
+	    			<td><p:outputLabel value="Contact"/></td>
+	    			<td><p:inputText value="#{employeeBean.contact}" id="contact" validator="#{employeeBean.validateNo}">
+	    			</p:inputText></td>
+	    			<td><h:message for="contact"/></td>
+	    		</tr>
+	    		<tr>
+	    			<td><p:outputLabel value="Password"/></td>
+	    			<td><p:password id="feedback" value="#{employeeBean.password}" feedback="true"/></td>
+	    			<td><h:message for="pwd"/></td>
+	    		</tr>
+	    		<tr>
+	    			<td><p:outputLabel value="Date Of Joining"/></td>
+	    			<td><p:inputText value="#{employeeBean.doj}" id="doj"/></td>
+	    			<td><h:message for="doj"/></td>
+	    		</tr>
+	    		<tr>
+	    		
+	    		<td colspan="2" align="right">  <p:commandButton value="Save" id="nonAjax" actionListener="#{employeeBean.save}" ajax="false" /></td>
+	    		
+	    		</tr>
+	    	</table>
+	    </h:form>
+	    </div>
+	</ui:define>
+	
+</ui:composition>
+</html>

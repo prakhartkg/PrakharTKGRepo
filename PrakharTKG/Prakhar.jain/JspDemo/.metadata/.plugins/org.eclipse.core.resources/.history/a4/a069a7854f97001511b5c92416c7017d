@@ -1,0 +1,35 @@
+package com.yash.ems.service;
+
+import java.util.List;
+
+import com.yash.ems.dao.EmployeeDao;
+import com.yash.ems.domain.Employee;
+
+public class EmployeeServiceimpl implements EmployeeService {
+	EmployeeDao employeeDao=new EmployeeDao();
+	Employee employee;
+	@Override
+	public void addEmployee(String name, String city, Double salary) {
+		employee=new Employee();
+		employee.setCity(city);
+		employee.setName(name);
+		employee.setSalary(salary);
+		employeeDao.addEmployee(employee);
+				
+	}
+	@Override
+	public List<Employee> getAllEmployees() {
+		List<Employee> employees;
+		employees=employeeDao.getAllEmployees();
+		return employees;
+	}
+	@Override
+	public List<Employee> getEmployee(int employee_id) {
+		List<Employee> employees;
+		employee=new Employee();
+		employee.setEmployee_id(employee_id);
+		employees=employeeDao.getEmployee();
+		return null;
+	}
+
+}

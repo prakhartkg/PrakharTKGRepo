@@ -1,0 +1,5 @@
+package com.yash.ems.domain;
+
+public class Employee {
+
+}

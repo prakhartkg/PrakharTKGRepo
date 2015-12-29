@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Form</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+	<link rel="stylesheet" href="jquery-ui.css" />
+	<script type="text/script">
+		$(document).ready(function(){
+		$('#save').click(function(){
+		$('#dialog').dialog();
+	});
+});
+	</script>
+	<style type="text/css">
+	#dialog {
+	display: none;
+	}
+</style>
+</h:head>
+<h:body>
+	<h:form prependId="false">
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td><h:inputText value="#{userBean.name}" /></td>
+			</tr>
+			<tr>
+				<td>Salary:</td>
+				<td><h:inputText value="#{userBean.salary}" /></td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td><h:inputText value="#{userBean.address.city}" /></td>
+			</tr>
+			<tr>
+				<td>State:</td>
+				<td><h:inputText value="#{userBean.address.state}" /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><h:commandButton value="submit" type="submit" id="save"	action="#{userBean.save}" /></td>
+			</tr>
+		</table>
+	</h:form>
+
+	<div id="dialog">
+		<p id="showtext">hello</p>
+	</div>
+<h:outputText value="name : "/><h:outputText value="#{userBean.name}"/><br/>
+<h:outputText value="City : "/><h:outputText value="#{userBean.address.city}"/><br/>
+<h:outputText value="State : "/><h:outputText value="#{userBean.address.state}"/>
+</h:body>
+</html>

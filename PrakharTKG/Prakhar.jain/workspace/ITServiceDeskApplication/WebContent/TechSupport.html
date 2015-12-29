@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post" action="TechSupportServlet">
+	<Table align="center" >
+		<Tr>
+			<th>UserId</th>
+			<td><Input type="text" name="userId"></td>
+		</Tr>
+		<Tr>
+		<th>Software</th>
+		<td>
+		<select name="software">
+			<option value="Eclipse">Eclipse</option>
+			<option value="NetBeans">NetBeans</option>
+			<option value="TomCat">TomCat</option>
+			<option value="TomEE">TomEE</option>
+			<option value="JDK">JDK</option>
+			<option value="SQLYog">SQLYog</option>
+		</select>
+		</td>
+		</Tr>
+		<Tr>
+		<th>Operating System</th>
+		<td>
+		<select name="os">
+			<option value="Windows">Windows</option>
+			<option value="Unix">Unix</option>
+			<option value="Linux">Linux</option>
+			<option value="MAC">MAC</option>
+		</select>
+		</td>
+		</Tr>
+		<Tr>
+		<Th>Problem</Th>
+		<td>
+		<textarea name="description"></textarea>
+		</td>
+		</Tr>
+		<tr>
+		<td colspan=2 align="center"><input type="submit" value="Submit"></td>
+		</tr>
+	</Table>
+</form>
+</body>
+
+</html>

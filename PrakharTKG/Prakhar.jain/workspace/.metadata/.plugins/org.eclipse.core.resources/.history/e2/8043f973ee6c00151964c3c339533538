@@ -1,0 +1,10 @@
+<web-app>
+
+	<jsp-config>
+		<taglib>
+			<taglib-uri>/auguest-batch</taglib-uri>
+			<taglib-location>/WEB-INF/mytag.tld</taglib-location>
+		</taglib>
+	</jsp-config>
+
+</web-app>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#container1
+{
+margin-left:40%;
+margin-top:10%;
+}
+#para1{
+color:blue;
+}
+</style>
+</head>
+<body>
+<div id=container1>
+<h1>Changing the css of the element</h1>
+<p id="para1">This is paragraph.</p>
+<button type="button" onclick="change()">Click</button>
+</div>
+</br>
+<hr>
+<div align="center">
+<h1>Visibility operations</h1>
+<p id="para2">Click on hide button to hide text</p>
+<input type="button" onclick="hide()" value="Hide"></input>
+<input type="button" onclick="show()" value="show"></input>
+
+<input type="button" onclick="both()" value="both"></input>
+
+</div>
+
+<script>
+var flag=0;
+function change() {
+    var x = document.getElementById("para1");
+    x.style.fontSize = "25px";           
+    x.style.color = "red"; 
+}
+function hide()
+{
+document.getElementById("para2").style.visibility="hidden";
+document.getElementById("para1").style.visibility="hidden";
+}
+function show()
+{
+document.getElementById("para2").style.visibility="visible";
+
+document.getElementById("para1").style.visibility="visible";
+}
+
+function both()
+{
+if (flag==0)
+{document.getElementById("para2").style.visibility="hidden";
+flag=1;}
+else
+{
+document.getElementById("para2").style.visibility="visible";
+flag=0;
+}
+}
+</script>
+
+</body>
+</html> 

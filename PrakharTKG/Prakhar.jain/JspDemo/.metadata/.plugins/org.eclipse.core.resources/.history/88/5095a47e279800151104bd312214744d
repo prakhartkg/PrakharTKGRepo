@@ -1,0 +1,5 @@
+package com.yash.ems.bean;
+
+public class employeeBean {
+
+}
